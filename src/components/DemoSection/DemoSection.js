@@ -9,8 +9,6 @@ import { Section, LiveServiceDemo } from 'react-saasify'
 @observer
 export class DemoSection extends Component {
   render() {
-    console.log('config', this.props.config)
-
     const { deployment } = this.props.config
     const demo = deployment.saas.sections?.demo
     const image = demo?.image || deployment.saas.exampleImage
