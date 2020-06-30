@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { observer } from 'mobx-react'
 
-import { PricingPlan, theme } from 'react-saasify'
+import { Divider, PricingPlan, theme } from 'react-saasify'
 
 import plans, { formatPrice } from 'lib/pricing-plans'
 
@@ -10,13 +10,6 @@ import styles from './styles.module.css'
 
 // Tiers for the pay-as-you-fo-v1 plan.
 const payg = plans[1].original.requests
-
-/**
- * @see https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript
- */
-function numberWithCommas(x) {
-  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
-}
 
 /**
  * Given the number of emails, calculate the price.
@@ -63,40 +56,10 @@ export class PayAsYouGo extends Component {
             </div>
           ),
           features: [
-            <div className={styles.tableWrapper} key='tableWrapper'>
-              <table className={styles.table}>
-                <thead className={styles.tableHead}>
-                  <tr>
-                    <th>Lookups/mo</th>
-                    <th>Price per lookup</th>
-                    <th>Max price for tier</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {payg.tiers.map((tier, index) => (
-                    <tr key={tier.upTo}>
-                      <td>
-                        {index === 0
-                          ? 0
-                          : numberWithCommas(
-                              +payg.tiers[index - 1].upTo + 1
-                            )}{' '}
-                        - {numberWithCommas(tier.upTo).replace('inf', '∞')}
-                      </td>
-                      <td>${formatPrice(tier.unitAmount)}</td>
-                      <td>
-                        {tier.upTo === 'inf'
-                          ? '∞'
-                          : `$${formatPrice(
-                              (+tier.upTo + 1) * +tier.unitAmount
-                            )}`}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>,
-            ...plans[1].features
+            plans[1].features[0],
+            plans[1].features[1],
+            <Divider key='divider' />,
+            ...plans[1].features.slice(2)
           ],
           // Dynamic pricing.
           price: `$${formatPrice(

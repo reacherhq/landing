@@ -35,7 +35,15 @@ export class PricingSection extends Component {
         </div>
         <p className={styles.emailsWarning}>
           * The price above is indicative. The price tier you fall in will be
-          determined by how many actual lookups you do for that month.
+          determined by{' '}
+          <a
+            href='https://www.notion.so/Enterprise-Pricing-dd54b64b2fcc43c1811ead80e004a1e2'
+            rel='noreferrer'
+            target='_blank'
+          >
+            how many actual lookups
+          </a>{' '}
+          you do for that month.
         </p>
       </Section>
     )
