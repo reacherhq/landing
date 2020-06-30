@@ -4,7 +4,7 @@
   "description": "Powered by Saasify",
   "readme": "## Quick Start\n\nWhether you’re new to email verifications or seasoned in all things SMTP, this is where you’ll find out how to develop applications with Reacher. We offer simple code snippets for several popular programming languages.\n\nThe Reacher API is organized around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). Our API has predictable resource-oriented URLs, accepts [form-encoded](<https://en.wikipedia.org/wiki/POST_(HTTP)#Use_for_submitting_web_forms>) request bodies, returns [JSON-encoded](www.json.org) responses, and uses standard HTTP response codes, authentication, and verbs.\n\nThe documentation on this page focuses on the technical side of Reacher. If you have non-technical question, be sure to also check our [FAQ](https://www.notion.so/reacherhq/Reacher-FAQ-389d6f51a53749f29d914239613c64eb).\n\n### Working with Reacher's API\n\nThe first step is to fetch your unique API Auth Token. You can do so in your [accounts page](https://reacher.email/account). Copy the token inside your clipboard.\n\nThe next step is to make a REST API request to the reacher servers. There's only one endpoint for now: check an email. Scroll down to see the [endpoint's specifications](#operation/post-check-email), as well as code snippets using cURL, Node.js, Python and Go.\n",
   "keywords": [],
-  "hash": "7e7e2d2c",
+  "hash": "15f4cacb",
   "user": "5ea9834bc5a438003c319d1e",
   "project": {
     "keywords": [],
@@ -37,8 +37,8 @@
       }
     ],
     "createdAt": "2020-04-30T19:26:19.316Z",
-    "updatedAt": "2020-06-30T14:33:51.589Z",
-    "lastDeployment": "amaurymartiny/reacher@7e7e2d2c",
+    "updatedAt": "2020-06-30T17:17:44.351Z",
+    "lastDeployment": "amaurymartiny/reacher@15f4cacb",
     "alias": "reacher.email",
     "lastPublishedDeployment": "amaurymartiny/reacher@91a0a1cf",
     "lastPublishedVersion": "0.1.4",
@@ -166,7 +166,7 @@
       "name": "Pay-As-You-Go",
       "slug": "pay-as-you-go-v1",
       "baseId": "base:40adb9cf2a92ba804fda1ba128d95db1bd16f872eb58eacc358ac7921dea290c:acct_1GdjpUA852XqldwX",
-      "requestsId": "requests:b353cf25b1dc00abff43a4b18758f7a010419b6b51bf501329bf080112754f20:acct_1GdjpUA852XqldwX"
+      "requestsId": "requests:68fad0e319d86af0dfb0df3673a4526db59c78350b1d22c96bbf1a9ed0c7e483:acct_1GdjpUA852XqldwX"
     }
   ],
   "coupons": [],
@@ -177,55 +177,13 @@
       "adaptor": "openapi",
       "immutable": false,
       "reportUsage": true,
-      "examples": [
-        {
-          "isGeneratedInput": false,
-          "isGeneratedOutput": true,
-          "inputContentType": "application/json",
-          "outputContentType": "application/json",
-          "input": {
-            "to_email": "test@gmail.com"
-          },
-          "name": "Basic",
-          "output": {
-            "input": "test@gmail.com",
-            "is_reachable": "risky",
-            "misc": {
-              "is_disposable": false,
-              "is_role_account": true
-            },
-            "mx": {
-              "accepts_mail": true,
-              "records": [
-                "alt3.gmail-smtp-in.l.google.com.",
-                "gmail-smtp-in.l.google.com.",
-                "alt4.gmail-smtp-in.l.google.com.",
-                "alt2.gmail-smtp-in.l.google.com.",
-                "alt1.gmail-smtp-in.l.google.com."
-              ]
-            },
-            "smtp": {
-              "can_connect_smtp": true,
-              "has_full_inbox": false,
-              "is_catch_all": false,
-              "is_deliverable": false,
-              "is_disabled": false
-            },
-            "syntax": {
-              "address": "test@gmail.com",
-              "domain": "gmail.com",
-              "is_valid_syntax": true,
-              "username": "test"
-            }
-          }
-        }
-      ],
+      "examples": [],
       "config": {},
       "headers": {},
       "pricingPlanConfig": {},
       "path": "/check_email",
-      "createdAt": "2020-06-30T14:33:51.444Z",
-      "updatedAt": "2020-06-30T14:33:51.444Z",
+      "createdAt": "2020-06-30T17:17:44.108Z",
+      "updatedAt": "2020-06-30T17:17:44.108Z",
       "pathExpress": "/check_email",
       "definition": {
         "params": {
@@ -243,8 +201,8 @@
           }
         }
       },
-      "url": "https://ssfy.sh/amaurymartiny/reacher@7e7e2d2c/check_email",
-      "route": "/amaurymartiny/reacher@7e7e2d2c/check_email"
+      "url": "https://ssfy.sh/amaurymartiny/reacher@15f4cacb/check_email",
+      "route": "/amaurymartiny/reacher@15f4cacb/check_email"
     }
   ],
   "saas": {
@@ -309,10 +267,9 @@
     ],
     "name": "Reacher",
     "heading": "**Real-Time Email Verification API**",
-    "subheading": "Email verification API that doesn't store your data. Made by developers for developers.",
+    "subheading": "Email verification API that doesn't store your data. 100% open-source, built with Rust & Serverless.",
     "repo": "https://github.com/reacherhq/webapp",
     "sections": {
-      "demo": true,
       "hero": {
         "cta": "50 emails/mo for free"
       },
@@ -335,11 +292,11 @@
       "backgroundImage": null
     }
   },
-  "createdAt": "2020-06-30T14:33:51.444Z",
-  "updatedAt": "2020-06-30T14:33:51.444Z",
-  "url": "https://ssfy.sh/amaurymartiny/reacher@7e7e2d2c",
-  "openApiUrl": "https://api.saasify.sh/1/deployments/openapi/amaurymartiny/reacher@7e7e2d2c",
-  "saasUrl": "https://amaurymartiny_reacher_7e7e2d2c.saasify.sh",
+  "createdAt": "2020-06-30T17:17:44.109Z",
+  "updatedAt": "2020-06-30T17:17:44.109Z",
+  "url": "https://ssfy.sh/amaurymartiny/reacher@15f4cacb",
+  "openApiUrl": "https://api.saasify.sh/1/deployments/openapi/amaurymartiny/reacher@15f4cacb",
+  "saasUrl": "https://amaurymartiny_reacher_15f4cacb.saasify.sh",
   "hasFreeTier": true,
   "authProviders": {
     "google": {
@@ -684,5 +641,5 @@
       "securitySchemes": {}
     }
   },
-  "id": "amaurymartiny/reacher@7e7e2d2c"
+  "id": "amaurymartiny/reacher@15f4cacb"
 }
