@@ -62,7 +62,7 @@ const saasifyConfig = {
           to: '/docs'
         },
       {
-        label: 'Support',
+        label: 'Contact Us',
         href: 'mailto:support@reacher.email'
       }
     ],
@@ -153,11 +153,15 @@ const saasifyConfig = {
         ]
       },
       {
-        label: 'Support',
+        label: 'Contact Us',
         links: [
           {
             label: 'Email',
             href: 'mailto:support@reacher.email'
+          },
+          {
+            label: 'Github',
+            href: 'https://github.com/reacherhq/webapp'
           }
         ]
       }
