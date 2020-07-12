@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { theme } from 'react-saasify'
 import { observer, inject } from 'mobx-react'
 import { withTracker } from 'lib/with-tracker'
+import GithubCorner from 'react-github-corner'
 
 import {
   NavHeader,
@@ -48,6 +49,12 @@ export class HomePage extends Component {
         <CTASection />
 
         <NavFooter />
+
+        <GithubCorner
+          className={styles.githubBanner}
+          href='https://github.com/reacherhq'
+          target='_blank'
+        />
       </div>
     )
   }
