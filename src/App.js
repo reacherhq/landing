@@ -149,6 +149,10 @@ const saasifyConfig = {
           {
             label: 'Privacy',
             to: '/privacy'
+          },
+          {
+            label: 'Commercial License',
+            to: '/commercial-license'
           }
         ]
       },
