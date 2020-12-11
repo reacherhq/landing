@@ -179,10 +179,14 @@ export class OnboardingSection extends Component {
                     </span>
                   ) : (
                     <span>
-                      Use your private auth token below, and send a HTTP request
-                      to:
+                      Use your private auth token below, and send a HTTP{' '}
+                      <strong>POST</strong> request to:
+                      {/* This right now doesn't work:
                       <pre className={styles.code}>
                         {backendUrl}/check_email
+                      </pre> */}
+                      <pre className={styles.code}>
+                        https://ssfy.sh/amaurymartiny/reacher@2d2ce35c/check_email
                       </pre>
                       with the following header:
                       <pre className={styles.code}>
