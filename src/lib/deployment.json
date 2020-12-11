@@ -199,9 +199,7 @@
                 "type": "string"
               }
             },
-            "required": [
-              "x-saasify-proxy-secret"
-            ],
+            "required": ["x-saasify-proxy-secret"],
             "title": "CheckEmailInput",
             "description": "Input containing all parameters necessary for an email verification."
           }
@@ -213,7 +211,7 @@
   ],
   "saas": {
     "headerName": null,
-    "logo": "https://storage.googleapis.com/saasify-uploads-prod/696e287ad79f0e0352bc201b36d701849f7d55e7.svg",
+    "logo": "https://web.archive.org/web/20201020022724/https://storage.googleapis.com/saasify-uploads-prod/696e287ad79f0e0352bc201b36d701849f7d55e7.svg",
     "logoLight": null,
     "favicon": "https://storage.googleapis.com/saasify-uploads-prod/ae7aba60db49352ef6d6782747f6c94dcf4c5029.png",
     "exampleImage": null,
@@ -228,47 +226,47 @@
       {
         "name": "Yes, it scales",
         "desc": "Our cutting-edge infrastructure leverages elastic horizontal scaling technology. **Prevent spam sign-ups** on your website, or **clean large lists**, both with Reacher.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/8d7bb70bf74f55d401c44cb2e0ce7f813003757b.svg"
+        "icon": "https://web.archive.org/web/20201020022725/https://storage.googleapis.com/saasify-uploads-prod/8d7bb70bf74f55d401c44cb2e0ce7f813003757b.svg"
       },
       {
         "name": "Warp Speeds",
         "desc": "Reacher is built with the fast and performant [Rust](https://www.rust-lang.org/) programming language, using the [Warp](https://github.com/seanmonstar/warp) web framework. For real-time email verification, **it's fast**.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/a8c8dcef62d3ed5a77c120bc390502a274a58aa5.svg"
+        "icon": "https://web.archive.org/web/20201020022725/https://storage.googleapis.com/saasify-uploads-prod/a8c8dcef62d3ed5a77c120bc390502a274a58aa5.svg"
       },
       {
         "name": "Highest Accuracy Possible",
         "desc": "We won't play small, this email verification tool actually connects to the mail server and checks in **real-time** if the email exists. We don't use historical data.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/24ef0772da2760de569dce1c5e8bc495e23551d5.svg"
+        "icon": "https://web.archive.org/web/20201020022724/https://storage.googleapis.com/saasify-uploads-prod/24ef0772da2760de569dce1c5e8bc495e23551d5.svg"
       },
       {
         "name": "Fully Featured",
         "desc": "We check for MTA, MX records, SMTP, hard bounces, catch-all, disposable email, role-based accounts... and [much more](https://www.notion.so/reacherhq/How-Reacher-Verifies-Emails-2927ca5191d744e6b15652fc08d2dd3d).",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/377b175b9d6cd568642424f37b50445ebe197659.svg"
+        "icon": "https://web.archive.org/web/20201020022725/https://storage.googleapis.com/saasify-uploads-prod/377b175b9d6cd568642424f37b50445ebe197659.svg"
       },
       {
         "name": "Privacy Guaranteed",
         "desc": "It's simple: once you get the result of your email verifications, we delete everything on our side. We are 100% GDPR compliant.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/38e04e75af049826a74109dc26db3f6cb66087aa.svg"
+        "icon": "https://web.archive.org/web/20201020022725/https://storage.googleapis.com/saasify-uploads-prod/38e04e75af049826a74109dc26db3f6cb66087aa.svg"
       },
       {
         "name": "Free for Personal Use",
         "desc": "Start with **50 free** emails every month. Scale with our [pay-as-you-go](/pricing) plans afterwards.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/aee82d15ab2363a199e1b998fd70f9e837b506a3.svg"
+        "icon": "https://web.archive.org/web/20201020022725/https://storage.googleapis.com/saasify-uploads-prod/aee82d15ab2363a199e1b998fd70f9e837b506a3.svg"
       },
       {
         "name": "Bulk Verification",
         "desc": "Clean your large email lists by using our [JavaScript SDK](https://github.com/reacherhq/reacher-js) to perform bulk email verification.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/de73f4e8d08270555337be7f8f55fb01b597a225.svg"
+        "icon": "https://web.archive.org/web/20201020022725/https://storage.googleapis.com/saasify-uploads-prod/de73f4e8d08270555337be7f8f55fb01b597a225.svg"
       },
       {
         "name": "Powerful API",
         "desc": "Advanced integrations available programatically via our [REST API](/docs#section/API).",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/c3cc80bf290617979fe9c89cabd3d181c0d34cd1.svg"
+        "icon": "https://web.archive.org/web/20201020022725/https://storage.googleapis.com/saasify-uploads-prod/c3cc80bf290617979fe9c89cabd3d181c0d34cd1.svg"
       },
       {
         "name": "Open-Source",
         "desc": "In order to guarantee transparency with your data, Reacher is 100% [open-source](https://github.com/reacherhq/backend)! We also offer the possibility to self-host the service yourself.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/b0a714829a4cac045d3cf13243e37f5b8435274d.svg"
+        "icon": "https://web.archive.org/web/20201020022725/https://storage.googleapis.com/saasify-uploads-prod/b0a714829a4cac045d3cf13243e37f5b8435274d.svg"
       }
     ],
     "name": "Reacher",
@@ -510,14 +508,7 @@
               "$ref": "#/components/schemas/SyntaxDetails"
             }
           },
-          "required": [
-            "input",
-            "misc",
-            "mx",
-            "smtp",
-            "syntax",
-            "is_reachable"
-          ]
+          "required": ["input", "misc", "mx", "smtp", "syntax", "is_reachable"]
         },
         "Error": {
           "title": "Error",
@@ -533,10 +524,7 @@
               "description": "A human-readable description of the error."
             }
           },
-          "required": [
-            "type",
-            "message"
-          ]
+          "required": ["type", "message"]
         },
         "MiscDetails": {
           "title": "MiscDetails",
@@ -552,10 +540,7 @@
               "description": "Is this email a role-based account?"
             }
           },
-          "required": [
-            "is_disposable",
-            "is_role_account"
-          ]
+          "required": ["is_disposable", "is_role_account"]
         },
         "MxDetails": {
           "title": "MxDetails",
@@ -573,10 +558,7 @@
               }
             }
           },
-          "required": [
-            "accepts_mail",
-            "records"
-          ],
+          "required": ["accepts_mail", "records"],
           "description": "Object holding the MX details of the mail server."
         },
         "SmtpDetails": {
@@ -631,21 +613,12 @@
               "description": "The username of the email, i.e. the part before the \"@\" symbol."
             }
           },
-          "required": [
-            "domain",
-            "is_valid_syntax",
-            "username"
-          ]
+          "required": ["domain", "is_valid_syntax", "username"]
         },
         "Reachable": {
           "type": "string",
           "title": "Reachable",
-          "enum": [
-            "invalid",
-            "unknown",
-            "safe",
-            "risky"
-          ],
+          "enum": ["invalid", "unknown", "safe", "risky"],
           "description": "An enum to describe how confident we are that the recipient address is real: `safe`, `risky`, `invalid` and `unknown`. Check our FAQ to know the meanings of the 4 possibilities: https://www.notion.so/reacherhq/Reacher-FAQ-389d6f51a53749f29d914239613c64eb."
         },
         "CheckEmailInput": {
@@ -666,9 +639,7 @@
               "description": "In the SMTP connection, the EHLO hostname."
             }
           },
-          "required": [
-            "to_email"
-          ]
+          "required": ["to_email"]
         }
       },
       "securitySchemes": {}
