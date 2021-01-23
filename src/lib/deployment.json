@@ -239,9 +239,7 @@
                 "type": "string"
               }
             },
-            "required": [
-              "x-saasify-proxy-secret"
-            ],
+            "required": ["x-saasify-proxy-secret"],
             "title": "CheckEmailInput",
             "description": "Input containing all parameters necessary for an email verification."
           }
@@ -550,14 +548,7 @@
               "$ref": "#/components/schemas/SyntaxDetails"
             }
           },
-          "required": [
-            "input",
-            "misc",
-            "mx",
-            "smtp",
-            "syntax",
-            "is_reachable"
-          ]
+          "required": ["input", "misc", "mx", "smtp", "syntax", "is_reachable"]
         },
         "Error": {
           "title": "Error",
@@ -573,10 +564,7 @@
               "description": "A human-readable description of the error."
             }
           },
-          "required": [
-            "type",
-            "message"
-          ]
+          "required": ["type", "message"]
         },
         "MiscDetails": {
           "title": "MiscDetails",
@@ -592,10 +580,7 @@
               "description": "Is this email a role-based account?"
             }
           },
-          "required": [
-            "is_disposable",
-            "is_role_account"
-          ]
+          "required": ["is_disposable", "is_role_account"]
         },
         "MxDetails": {
           "title": "MxDetails",
@@ -613,10 +598,7 @@
               }
             }
           },
-          "required": [
-            "accepts_mail",
-            "records"
-          ],
+          "required": ["accepts_mail", "records"],
           "description": "Object holding the MX details of the mail server."
         },
         "SmtpDetails": {
@@ -671,21 +653,12 @@
               "description": "The username of the email, i.e. the part before the \"@\" symbol."
             }
           },
-          "required": [
-            "domain",
-            "is_valid_syntax",
-            "username"
-          ]
+          "required": ["domain", "is_valid_syntax", "username"]
         },
         "Reachable": {
           "type": "string",
           "title": "Reachable",
-          "enum": [
-            "invalid",
-            "unknown",
-            "safe",
-            "risky"
-          ],
+          "enum": ["invalid", "unknown", "safe", "risky"],
           "description": "An enum to describe how confident we are that the recipient address is real: `safe`, `risky`, `invalid` and `unknown`. Check our FAQ to know the meanings of the 4 possibilities: https://www.notion.so/reacherhq/Reacher-FAQ-389d6f51a53749f29d914239613c64eb."
         },
         "CheckEmailInput": {
@@ -706,9 +679,7 @@
               "description": "In the SMTP connection, the EHLO hostname."
             }
           },
-          "required": [
-            "to_email"
-          ]
+          "required": ["to_email"]
         }
       },
       "securitySchemes": {}
