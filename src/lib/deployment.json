@@ -5,7 +5,7 @@
   "readme": "## Quick Start\n\nWhether you’re new to email verifications or seasoned in all things SMTP, this is where you’ll find out how to develop applications with Reacher. We offer simple code snippets for several popular programming languages.\n\nThe Reacher API is organized around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). Our API has predictable resource-oriented URLs, accepts [form-encoded](<https://en.wikipedia.org/wiki/POST_(HTTP)#Use_for_submitting_web_forms>) request bodies, returns [JSON-encoded](www.json.org) responses, and uses standard HTTP response codes, authentication, and verbs.\n\nThe documentation on this page focuses on the technical side of Reacher. If you have non-technical question, be sure to also check our [FAQ](https://www.notion.so/reacherhq/Reacher-FAQ-389d6f51a53749f29d914239613c64eb).\n\n### Working with Reacher's API\n\nThe first step is to fetch your unique API Auth Token. You can do so in your [accounts page](https://reacher.email/account). Copy the token inside your clipboard.\n\nThe next step is to make a REST API request to the reacher servers. There's only one endpoint for now: check an email. Scroll down to see the [endpoint's specifications](#operation/post-check-email), as well as code snippets using cURL, Node.js, Python and Go.\n",
   "keywords": [],
   "proxyMode": "active",
-  "hash": "78bf7452",
+  "hash": "dd31f2c6",
   "user": "5ea9834bc5a438003c319d1e",
   "project": {
     "keywords": [],
@@ -46,8 +46,8 @@
       }
     ],
     "createdAt": "2020-04-30T19:26:19.316Z",
-    "updatedAt": "2021-01-23T14:08:38.322Z",
-    "lastDeployment": "amaurymartiny/reacher@78bf7452",
+    "updatedAt": "2021-01-23T14:11:37.391Z",
+    "lastDeployment": "amaurymartiny/reacher@dd31f2c6",
     "lastPublishedDeployment": "amaurymartiny/reacher@2d2ce35c",
     "lastPublishedVersion": "0.1.6",
     "stripeBaseProduct": "prod_HGYDgL6YePm4Rq",
@@ -102,7 +102,7 @@
         "See [Full Pricing Details](https://www.notion.so/Enterprise-Pricing-dd54b64b2fcc43c1811ead80e004a1e2) with flexible options.",
         "The more you verify, the **lower your total cost**.",
         "[Full-featured](https://www.notion.so/reacherhq/How-Reacher-Verifies-Emails-2927ca5191d744e6b15652fc08d2dd3d) email verifications.",
-        "**Priority** customer support, cancel anytime."
+        "**Priority** customer support."
       ],
       "auth": true,
       "amount": 0,
@@ -183,7 +183,7 @@
         "[Full-featured](https://www.notion.so/reacherhq/How-Reacher-Verifies-Emails-2927ca5191d744e6b15652fc08d2dd3d) email verifications.",
         "**Docker** format, or one-click deploy to **Heroku**.",
         "Try the open-source version **for free**.",
-        "**Priority** customer support, cancel anytime."
+        "**Priority** customer support."
       ],
       "auth": true,
       "amount": 39900,
@@ -226,8 +226,8 @@
       "headers": {},
       "pricingPlanConfig": {},
       "path": "/check_email",
-      "createdAt": "2021-01-23T14:08:38.170Z",
-      "updatedAt": "2021-01-23T14:08:38.170Z",
+      "createdAt": "2021-01-23T14:11:37.241Z",
+      "updatedAt": "2021-01-23T14:11:37.241Z",
       "pathExpress": "/check_email",
       "definition": {
         "params": {
@@ -247,8 +247,8 @@
           }
         }
       },
-      "url": "https://ssfy.sh/amaurymartiny/reacher@78bf7452/check_email",
-      "route": "/amaurymartiny/reacher@78bf7452/check_email"
+      "url": "https://ssfy.sh/amaurymartiny/reacher@dd31f2c6/check_email",
+      "route": "/amaurymartiny/reacher@dd31f2c6/check_email"
     }
   ],
   "saas": {
@@ -338,11 +338,11 @@
       "backgroundImage": null
     }
   },
-  "createdAt": "2021-01-23T14:08:38.170Z",
-  "updatedAt": "2021-01-23T14:08:38.170Z",
-  "url": "https://ssfy.sh/amaurymartiny/reacher@78bf7452",
-  "openApiUrl": "https://api.saasify.sh/1/deployments/openapi/amaurymartiny/reacher@78bf7452",
-  "saasUrl": "https://amaurymartiny_reacher_78bf7452.saasify.sh",
+  "createdAt": "2021-01-23T14:11:37.241Z",
+  "updatedAt": "2021-01-23T14:11:37.241Z",
+  "url": "https://ssfy.sh/amaurymartiny/reacher@dd31f2c6",
+  "openApiUrl": "https://api.saasify.sh/1/deployments/openapi/amaurymartiny/reacher@dd31f2c6",
+  "saasUrl": "https://amaurymartiny_reacher_dd31f2c6.saasify.sh",
   "hasFreeTier": true,
   "authProviders": {
     "google": {
@@ -714,5 +714,5 @@
       "securitySchemes": {}
     }
   },
-  "id": "amaurymartiny/reacher@78bf7452"
+  "id": "amaurymartiny/reacher@dd31f2c6"
 }
