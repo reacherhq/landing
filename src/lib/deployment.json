@@ -280,13 +280,13 @@
         "cta": "50 emails/mo for free"
       },
       "navFooter": {
-        "email": "mailto:support@reacher.email",
+        "email": "mailto:amaury@reacher.email",
         "location": "Made in a small independent studio in Berlin 🇩🇪.",
         "slack": false
       },
       "navHeader": {
         "cta": "Sign up",
-        "support": "mailto:support@reacher.email"
+        "support": "mailto:amaury@reacher.email"
       }
     },
     "theme": {
