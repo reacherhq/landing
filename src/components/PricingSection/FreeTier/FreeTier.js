@@ -24,7 +24,7 @@ export class FreeTier extends Component {
           context: null, // Remove top section hack.
           desc: null,
           features: [
-            <div className={theme(styles, 'pricing')} key="api-calls">
+            <div className={theme(styles, 'pricing')} key='api-calls'>
               <div />
               <div className={theme(styles, 'column')}>Price</div>
 
@@ -34,14 +34,18 @@ export class FreeTier extends Component {
                 <Fragment>
                   <div className={theme(styles, 'emphasis')}>API Calls</div>
 
-                  <div className={theme(styles, 'column-content')}>{plan.requests.price}</div>
+                  <div className={theme(styles, 'column-content')}>
+                    {plan.requests.price}
+                  </div>
 
-                  <div className={theme(styles, 'column-content')}>{plan.requests.rateLimit}</div>
+                  <div className={theme(styles, 'column-content')}>
+                    {plan.requests.rateLimit}
+                  </div>
                 </Fragment>
               )}
             </div>,
             <Divider key='divider' />,
-            ...plan.features,
+            ...plan.features
           ],
           price: plan.price
         }}

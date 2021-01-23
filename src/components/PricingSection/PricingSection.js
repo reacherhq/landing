@@ -26,9 +26,9 @@ export class PricingSection extends Component {
         {...this.props}
       >
         <div className={theme(styles, 'plans')}>
-          <FreeTier/>
+          <FreeTier />
           <PayAsYouGo />
-          <SelfHost/>
+          <SelfHost />
         </div>
       </Section>
     )

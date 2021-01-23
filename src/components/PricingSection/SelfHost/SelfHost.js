@@ -24,7 +24,7 @@ export class SelfHost extends Component {
           context: null, // Remove top section hack.
           desc: null,
           features: [
-            <div className={theme(styles, 'pricing')} key="api-calls">
+            <div className={theme(styles, 'pricing')} key='api-calls'>
               <div />
               <div className={theme(styles, 'column')}>Price</div>
 
@@ -34,14 +34,17 @@ export class SelfHost extends Component {
                 <Fragment>
                   <div className={theme(styles, 'emphasis')}>API Calls</div>
 
-                  <div className={theme(styles, 'column-content')}>{plan.requests.price}</div>
+                  <div className={theme(styles, 'column-content')}>
+                    {plan.requests.price}
+                  </div>
 
                   <div className={theme(styles, 'column-content')}>
                     <img
                       alt='unlimited'
                       src={infinity}
                       className={theme(styles, 'infinity')}
-                    /> / month
+                    />{' '}
+                    / month
                   </div>
                 </Fragment>
               )}

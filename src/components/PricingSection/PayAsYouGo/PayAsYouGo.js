@@ -10,7 +10,7 @@ import plans, { formatPrice } from 'lib/pricing-plans'
 import styles from './styles.module.css'
 
 // Tiers for the pay-as-you-fo-v2 plan.
-const plan = plans[1];
+const plan = plans[1]
 const payg = plan.original.requests
 
 /**
@@ -56,21 +56,21 @@ export class PayAsYouGo extends Component {
                 />
               </span>
               <p className={styles.emailsWarning}>
-          * The price below is indicative. The actual price will be
-          determined by{' '}
-          <a
-            href='https://www.notion.so/Enterprise-Pricing-dd54b64b2fcc43c1811ead80e004a1e2'
-            rel='noreferrer'
-            target='_blank'
-          >
-            how many lookups
-          </a>{' '}
-          you do for that month.
-        </p>
+                * The price below is indicative. The actual price will be
+                determined by{' '}
+                <a
+                  href='https://www.notion.so/Enterprise-Pricing-dd54b64b2fcc43c1811ead80e004a1e2'
+                  rel='noreferrer'
+                  target='_blank'
+                >
+                  how many lookups
+                </a>{' '}
+                you do for that month.
+              </p>
             </div>
           ),
           features: [
-            <div className={theme(styles, 'pricing')} key="api-calls">
+            <div className={theme(styles, 'pricing')} key='api-calls'>
               <div />
               <div className={theme(styles, 'column')}>Price</div>
 
@@ -80,16 +80,18 @@ export class PayAsYouGo extends Component {
                 <Fragment>
                   <div className={theme(styles, 'emphasis')}>API Calls</div>
 
-                  <div className={theme(styles, 'column-content')}>Variable</div>
+                  <div className={theme(styles, 'column-content')}>
+                    Variable
+                  </div>
 
                   <div className={theme(styles, 'column-content')}>
                     <img
                       alt='unlimited'
                       src={infinity}
                       className={theme(styles, 'infinity')}
-                    /> / month
+                    />{' '}
+                    / month
                   </div>
-                  
                 </Fragment>
               )}
             </div>,

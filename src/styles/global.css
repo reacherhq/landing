@@ -39,7 +39,8 @@ p {
   margin-bottom: 0;
 }
 
-a[href="https://github.com/Redocly/redoc"] {
+a[href="https://github.com/Redocly/redoc"]
+{
   display: none !important;
 }
 
