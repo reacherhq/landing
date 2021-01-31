@@ -5,7 +5,7 @@
   "readme": "## Quick Start\n\nWhether you’re new to email verifications or seasoned in all things SMTP, this is where you’ll find out how to develop applications with Reacher. We offer simple code snippets for several popular programming languages.\n\nThe Reacher API is organized around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). Our API has predictable resource-oriented URLs, accepts [form-encoded](<https://en.wikipedia.org/wiki/POST_(HTTP)#Use_for_submitting_web_forms>) request bodies, returns [JSON-encoded](www.json.org) responses, and uses standard HTTP response codes, authentication, and verbs.\n\nThe documentation on this page focuses on the technical side of Reacher. If you have non-technical question, be sure to also check our [Help Center](https://help.reacher.email).\n\n### Working with Reacher's API\n\nThe first step is to fetch your unique API Auth Token. You can do so in your [accounts page](https://reacher.email/account). Copy the token inside your clipboard.\n\nThe next step is to make a REST API request to the reacher servers. There's only one endpoint for now: check an email. Scroll down to see the [endpoint's specifications](#operation/post-check-email), as well as code snippets using cURL, Node.js, Python and Go.\n",
   "keywords": [],
   "proxyMode": "active",
-  "hash": "4d9260ef",
+  "hash": "0d919999",
   "user": "5ea9834bc5a438003c319d1e",
   "project": {
     "keywords": [],
@@ -46,8 +46,8 @@
       }
     ],
     "createdAt": "2020-04-30T19:26:19.316Z",
-    "updatedAt": "2021-01-31T16:43:36.640Z",
-    "lastDeployment": "amaurymartiny/reacher@4d9260ef",
+    "updatedAt": "2021-01-31T16:53:39.748Z",
+    "lastDeployment": "amaurymartiny/reacher@0d919999",
     "lastPublishedDeployment": "amaurymartiny/reacher@2d2ce35c",
     "lastPublishedVersion": "0.1.6",
     "stripeBaseProduct": "prod_HGYDgL6YePm4Rq",
@@ -230,8 +230,8 @@
       "headers": {},
       "pricingPlanConfig": {},
       "path": "/check_email",
-      "createdAt": "2021-01-31T16:43:36.494Z",
-      "updatedAt": "2021-01-31T16:43:36.494Z",
+      "createdAt": "2021-01-31T16:53:39.606Z",
+      "updatedAt": "2021-01-31T16:53:39.606Z",
       "pathExpress": "/check_email",
       "definition": {
         "params": {
@@ -251,8 +251,8 @@
           }
         }
       },
-      "url": "https://ssfy.sh/amaurymartiny/reacher@4d9260ef/check_email",
-      "route": "/amaurymartiny/reacher@4d9260ef/check_email"
+      "url": "https://ssfy.sh/amaurymartiny/reacher@0d919999/check_email",
+      "route": "/amaurymartiny/reacher@0d919999/check_email"
     }
   ],
   "saas": {
@@ -306,7 +306,7 @@
       },
       {
         "name": "Powerful API",
-        "desc": "Advanced integrations available programatically via our [REST API](/docs#section/API).",
+        "desc": "Advanced integrations available programatically via our [REST API](https://help.reacher.email/rest-api-documentation).",
         "icon": "https://storage.googleapis.com/saasify-uploads-prod/c3cc80bf290617979fe9c89cabd3d181c0d34cd1.svg"
       },
       {
@@ -342,11 +342,11 @@
       "backgroundImage": null
     }
   },
-  "createdAt": "2021-01-31T16:43:36.495Z",
-  "updatedAt": "2021-01-31T16:43:36.495Z",
-  "url": "https://ssfy.sh/amaurymartiny/reacher@4d9260ef",
-  "openApiUrl": "https://api.saasify.sh/1/deployments/openapi/amaurymartiny/reacher@4d9260ef",
-  "saasUrl": "https://amaurymartiny_reacher_4d9260ef.saasify.sh",
+  "createdAt": "2021-01-31T16:53:39.606Z",
+  "updatedAt": "2021-01-31T16:53:39.606Z",
+  "url": "https://ssfy.sh/amaurymartiny/reacher@0d919999",
+  "openApiUrl": "https://api.saasify.sh/1/deployments/openapi/amaurymartiny/reacher@0d919999",
+  "saasUrl": "https://amaurymartiny_reacher_0d919999.saasify.sh",
   "hasFreeTier": true,
   "authProviders": {
     "google": {
@@ -718,5 +718,5 @@
       "securitySchemes": {}
     }
   },
-  "id": "amaurymartiny/reacher@4d9260ef"
+  "id": "amaurymartiny/reacher@0d919999"
 }
