@@ -12,7 +12,7 @@
 			"enabled": true
 		}
 	},
-	"openapi": "./backend/openapi.json",
+	"openapi": "./openapi.json",
 	"pricingPlans": [
 		{
 			"name": "Free Tier",
