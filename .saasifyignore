@@ -1,3 +1,7 @@
 node_modules
 public
-src
+src/components
+src/lib
+src/pages
+src/styles
+src/themes
