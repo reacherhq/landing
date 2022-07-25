@@ -64,3 +64,5 @@ typings/
 
 build/
 dist/
+
+.DS_Store
