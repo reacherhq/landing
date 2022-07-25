@@ -9,12 +9,17 @@
   margin-top: 24px;
 }
 
-.bigmongolian {
-  margin-left: 64px;
-  width: 128px;
-}
-
 .geekflare {
   margin-right: 64px;
+  width: 256px;
+}
+
+.producthunt {
+  margin-left: 64px;
+  width: 256px;
+}
+
+.bdm {
+  margin-left: 72px;
   width: 256px;
 }
