@@ -13,14 +13,14 @@ export class EnterpriseSection extends Component {
         {...this.props}
       >
         <p className={theme(styles, 'reply')}>
-          Feel free to send us an email, or use the chat box on the bottom right
+          Feel free to send me an email, or use the chat box on the bottom right
           corner.
           <br />
           We reply pretty fast. 🚄
         </p>
 
         <a href='mailto:amaury@reacher.email'>
-          <CTAButton>Ask us a question</CTAButton>
+          <CTAButton>Ask me a question</CTAButton>
         </a>
       </Section>
     )
