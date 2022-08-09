@@ -7,9 +7,9 @@ import styles from './styles.module.css'
 export class CTASection extends Component {
   render() {
     return (
-      <Section id='cta' {...this.props}>
-        <h2 className={styles.people}>What other people say about Reacher</h2>
-        <div className={styles.blog}>
+      <Section id='cta' {...this.props} className={styles.section}>
+        <h2 className={styles.title}>What other people say about Reacher</h2>
+        <div className={styles.refs}>
           <a
             href='https://geekflare.com/email-verification-api/#anchor-reacher'
             rel='noreferrer'
