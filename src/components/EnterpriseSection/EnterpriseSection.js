@@ -15,8 +15,7 @@ export class EnterpriseSection extends Component {
         <p className={theme(styles, 'reply')}>
           Feel free to send me an email, or use the chat box on the bottom right
           corner.
-          <br />
-          I reply pretty fast. 🚄
+          <br />I reply pretty fast. 🚄
         </p>
 
         <a href='mailto:amaury@reacher.email'>

@@ -195,9 +195,8 @@ export class OnboardingSection extends Component {
                     {auth.user && auth.user.email && (
                       <>
                         <br />
-                        <br />
-                        I also sent you the commercial license for the current
-                        billing cycle to your email at{' '}
+                        <br />I also sent you the commercial license for the
+                        current billing cycle to your email at{' '}
                         <code>{auth.user.email}</code>.
                       </>
                     )}
