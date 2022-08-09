@@ -14,7 +14,7 @@ export class ErrorSection extends Component {
 
         <p>
           Please try refreshing the page. If the problem persists, please{' '}
-          <a href='https://saasify.sh/#/support'>contact us</a>.
+          <a href='mailto:amaury@reacher.email'>contact me</a>.
         </p>
 
         <p className={theme(styles, 'detail')}>

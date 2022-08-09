@@ -134,21 +134,21 @@ const saasifyConfig = {
             href: 'https://help.reacher.email/privacy-policy'
           },
           {
-            label: 'Mentions Légales ',
+            label: 'Mentions Légales 🇫🇷',
             href: 'https://help.reacher.email/mentions-lgales'
           },
           {
-            label: 'CGU-CGV',
+            label: 'CGU-CGV 🇫🇷',
             href: 'https://help.reacher.email/cgu-cgv'
           },
           {
-            label: 'Politique de Confidentialité',
+            label: 'Politique de Confidentialité 🇫🇷',
             href: 'https://help.reacher.email/politique-de-confidentialit'
           }
         ]
       },
       {
-        label: 'Contact Us',
+        label: 'Contact',
         links: [
           {
             label: 'Email',

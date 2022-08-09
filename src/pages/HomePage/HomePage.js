@@ -10,7 +10,8 @@ import {
   HeroSection,
   FeaturesSection,
   CTASection,
-  DemoSection
+  DemoSection,
+  IndieSection
 } from 'components'
 
 import styles from './styles.module.css'
@@ -46,6 +47,8 @@ export class HomePage extends Component {
         <FeaturesSection />
 
         <CTASection />
+
+        <IndieSection />
 
         <NavFooter />
       </div>

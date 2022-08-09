@@ -181,7 +181,7 @@ export class OnboardingSection extends Component {
                       Self-Host Guide
                     </a>{' '}
                     to get started. Feel free to{' '}
-                    <a href='mailto:amaury@reacher.email'>contact us</a> if you
+                    <a href='mailto:amaury@reacher.email'>contact me</a> if you
                     have any questions.
                     <br />
                     <br />
@@ -195,9 +195,8 @@ export class OnboardingSection extends Component {
                     {auth.user && auth.user.email && (
                       <>
                         <br />
-                        <br />
-                        We also sent you the commercial license for the current
-                        billing cycle to your email at{' '}
+                        <br />I also sent you the commercial license for the
+                        current billing cycle to your email at{' '}
                         <code>{auth.user.email}</code>.
                       </>
                     )}

@@ -7,18 +7,15 @@ import styles from './styles.module.css'
 export class CTASection extends Component {
   render() {
     return (
-      <Section id='cta' {...this.props}>
-        <h2 className={styles.people}>What other people say about Reacher</h2>
-        <div className={styles.blog}>
+      <Section id='cta' {...this.props} className={styles.section}>
+        <h2 className={styles.title}>What other people say about Reacher</h2>
+        <div className={styles.refs}>
           <a
             href='https://geekflare.com/email-verification-api/#anchor-reacher'
             rel='noreferrer'
             target='_blank'
           >
-            <img
-              className={styles.geekflare}
-              src='/assets/geekflare.webp'
-            />
+            <img className={styles.geekflare} src='/assets/geekflare.webp' />
           </a>
 
           <a
@@ -26,10 +23,7 @@ export class CTASection extends Component {
             rel='noreferrer'
             target='_blank'
           >
-            <img
-              className={styles.producthunt}
-              src='/assets/producthunt.png'
-            />
+            <img className={styles.producthunt} src='/assets/producthunt.png' />
           </a>
 
           <a
@@ -37,12 +31,8 @@ export class CTASection extends Component {
             rel='noreferrer'
             target='_blank'
           >
-            <img
-              className={styles.bdm}
-              src='/assets/bdm.png'
-            />
+            <img className={styles.bdm} src='/assets/bdm.png' />
           </a>
-
         </div>
         <a className={styles.cta} href='https://app.reacher.email/signup'>
           <CTAButton>Get started for free</CTAButton>
