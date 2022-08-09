@@ -16,7 +16,7 @@ export class EnterpriseSection extends Component {
           Feel free to send me an email, or use the chat box on the bottom right
           corner.
           <br />
-          We reply pretty fast. 🚄
+          I reply pretty fast. 🚄
         </p>
 
         <a href='mailto:amaury@reacher.email'>
