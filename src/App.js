@@ -59,31 +59,31 @@ const saasifyConfig = {
     actions: ({ auth }) => {
       return auth.isAuthenticated
         ? [
-          {
-            href: 'https://app.reacher.email/dashboard',
-            type: 'primary',
-            icon: 'home',
-            label: 'Dashboard'
-          },
-          {
-            to: '/logout',
-            type: 'secondary',
-            icon: 'logout',
-            label: 'Log out'
-          }
-        ]
+            {
+              href: 'https://app.reacher.email/dashboard',
+              type: 'primary',
+              icon: 'home',
+              label: 'Dashboard'
+            },
+            {
+              to: '/logout',
+              type: 'secondary',
+              icon: 'logout',
+              label: 'Log out'
+            }
+          ]
         : [
-          {
-            href: 'https://app.reacher.email/login',
-            type: 'secondary',
-            label: 'Log in'
-          },
-          {
-            href: 'https://app.reacher.email/signup',
-            type: 'primary',
-            label: 'Get started'
-          }
-        ]
+            {
+              href: 'https://app.reacher.email/login',
+              type: 'secondary',
+              label: 'Log in'
+            },
+            {
+              href: 'https://app.reacher.email/signup',
+              type: 'primary',
+              label: 'Get started'
+            }
+          ]
     }
   },
   footer: {
@@ -102,19 +102,19 @@ const saasifyConfig = {
           ({ auth }) =>
             auth.isAuthenticated
               ? {
-                label: 'Dashboard',
-                href: 'https://app.reacher.email/dashboard'
-              }
+                  label: 'Dashboard',
+                  href: 'https://app.reacher.email/dashboard'
+                }
               : {
-                label: 'Get started',
-                href: 'https://app.reacher.email/signup'
-              },
+                  label: 'Get started',
+                  href: 'https://app.reacher.email/signup'
+                },
           ({ auth }) =>
             auth.isAuthenticated
               ? {
-                label: 'Account',
-                href: 'https://app.reacher.email/dashboard'
-              }
+                  label: 'Account',
+                  href: 'https://app.reacher.email/dashboard'
+                }
               : null
         ]
       },
