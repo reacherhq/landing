@@ -143,10 +143,10 @@
     },
     {
       "features": [
-        "[Full-featured](https://help.reacher.email/email-attributes-inside-json) email verifications.",
-        "**Priority** customer support via email/chat.",
-        "Self-host Reacher in your **commercial apps**.",
-        "Comes with [self-host guides](https://help.reacher.email/self-host-guide) (Heroku, Docker).",
+        "[Full-featured](https://help.reacher.email/email-attributes-inside-json) email verifications. **Priority** support.",
+        "💪 **Bulk** email verification support. [Read more](https://help.reacher.email/bulk-email-verification).",
+        "Self-host Reacher in **your commercial apps**.",
+        "Comes with [self-host guides](https://help.reacher.email/self-host-guide) (Docker 🐳).",
         "Learn more about the full [terms and details](https://help.reacher.email/reacher-licenses).",
         "🤔 Want a **free trial** before you buy? Feel free to try self-hosting with our [open-source guide](https://help.reacher.email/self-host-guide), and subscribe once you're ready."
       ],
