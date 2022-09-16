@@ -48,13 +48,17 @@ const saasifyConfig = {
   header: {
     links: [
       {
+        label: 'Pricing',
+        to: '/pricing'
+      },
+      {
+        label: 'White Label',
+        href: 'https://help.reacher.email/white-label-email-verifier'
+      },
+      {
         label: 'Help Center',
         href: 'https://help.reacher.email'
       },
-      {
-        label: 'Pricing',
-        to: '/pricing'
-      }
     ],
     actions: ({ auth }) => {
       return auth.isAuthenticated
@@ -189,7 +193,7 @@ export default class App extends Component {
 
           <meta
             name='description'
-            content='Reacher is a powerful, free and open-source email verification API service to reduce your bounce rate and avoid spam sign-ups. We check SMTP responses, syntax validation, catch-all addresses and disposable providers.'
+            content='Reacher is a real-time, powerful, white-label email verification API service to reduce your bounce rate and avoid spam sign-ups. We check SMTP responses, MX records, catch-all and disposable addresses.'
           />
 
           {saas.scripts &&

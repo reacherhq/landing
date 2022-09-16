@@ -21,8 +21,6 @@ export class IndieSection extends Component {
             committed to making sure you love Reacher. If there is any way I can
             help, email me directly at{' '}
             <a href='mailto:amaury@reacher.email'>amaury@reacher.email</a>.
-            <br />
-            Cheers!
           </p>
         </div>
       </Section>

@@ -204,9 +204,7 @@
                 "type": "string"
               }
             },
-            "required": [
-              "x-saasify-proxy-secret"
-            ],
+            "required": ["x-saasify-proxy-secret"],
             "title": "CheckEmailInput",
             "description": "Input containing all parameters necessary for an email verification."
           }
@@ -262,17 +260,17 @@
       },
       {
         "name": "Bulk Verification",
-        "desc": "Clean your large email lists by using our [JavaScript SDK](https://github.com/reacherhq/reacher-js) to perform bulk email verification.",
+        "desc": "Upload a list of emails, and download the results as CSV. Only available with the Commercial License, [read more](https://help.reacher.email/bulk-email-verification).",
         "icon": "https://storage.googleapis.com/saasify-uploads-prod/de73f4e8d08270555337be7f8f55fb01b597a225.svg"
       },
       {
-        "name": "Powerful API",
-        "desc": "Advanced integrations available programatically via our [REST API](https://help.reacher.email/rest-api-documentation).",
+        "name": "White Label",
+        "desc": "Run your own email verifier using the [White Label](https://help.reacher.email/white-label-email-verifier) version: use Reacher's world-class tech, keep your own brand.",
         "icon": "https://storage.googleapis.com/saasify-uploads-prod/c3cc80bf290617979fe9c89cabd3d181c0d34cd1.svg"
       },
       {
         "name": "Open-Source",
-        "desc": "In order to guarantee transparency with your data, Reacher is 100% [open-source](https://github.com/reacherhq/backend)! We also offer the possibility to self-host the service yourself.",
+        "desc": "In order to guarantee transparency with your data, Reacher is 100% [open-source](https://github.com/reacherhq/check-if-email-exists)!",
         "icon": "https://storage.googleapis.com/saasify-uploads-prod/b0a714829a4cac045d3cf13243e37f5b8435274d.svg"
       }
     ],
@@ -515,14 +513,7 @@
               "$ref": "#/components/schemas/SyntaxDetails"
             }
           },
-          "required": [
-            "input",
-            "misc",
-            "mx",
-            "smtp",
-            "syntax",
-            "is_reachable"
-          ]
+          "required": ["input", "misc", "mx", "smtp", "syntax", "is_reachable"]
         },
         "Error": {
           "title": "Error",
@@ -538,10 +529,7 @@
               "description": "A human-readable description of the error."
             }
           },
-          "required": [
-            "type",
-            "message"
-          ]
+          "required": ["type", "message"]
         },
         "MiscDetails": {
           "title": "MiscDetails",
@@ -557,10 +545,7 @@
               "description": "Is this email a role-based account?"
             }
           },
-          "required": [
-            "is_disposable",
-            "is_role_account"
-          ]
+          "required": ["is_disposable", "is_role_account"]
         },
         "MxDetails": {
           "title": "MxDetails",
@@ -578,10 +563,7 @@
               }
             }
           },
-          "required": [
-            "accepts_mail",
-            "records"
-          ],
+          "required": ["accepts_mail", "records"],
           "description": "Object holding the MX details of the mail server."
         },
         "SmtpDetails": {
@@ -636,21 +618,12 @@
               "description": "The username of the email, i.e. the part before the \"@\" symbol."
             }
           },
-          "required": [
-            "domain",
-            "is_valid_syntax",
-            "username"
-          ]
+          "required": ["domain", "is_valid_syntax", "username"]
         },
         "Reachable": {
           "type": "string",
           "title": "Reachable",
-          "enum": [
-            "invalid",
-            "unknown",
-            "safe",
-            "risky"
-          ],
+          "enum": ["invalid", "unknown", "safe", "risky"],
           "description": "An enum to describe how confident we are that the recipient address is real: `safe`, `risky`, `invalid` and `unknown`. Check our FAQ to know the meanings of the 4 possibilities: https://help.reacher.email/email-attributes-inside-json."
         },
         "CheckEmailInput": {
@@ -671,9 +644,7 @@
               "description": "In the SMTP connection, the EHLO hostname."
             }
           },
-          "required": [
-            "to_email"
-          ]
+          "required": ["to_email"]
         }
       },
       "securitySchemes": {}
