@@ -58,7 +58,7 @@ const saasifyConfig = {
       {
         label: 'Help Center',
         href: 'https://help.reacher.email'
-      },
+      }
     ],
     actions: ({ auth }) => {
       return auth.isAuthenticated

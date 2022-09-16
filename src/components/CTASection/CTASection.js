@@ -15,7 +15,11 @@ export class CTASection extends Component {
             rel='noreferrer'
             target='_blank'
           >
-            <img alt="geekflare" className={styles.geekflare} src='/assets/geekflare.webp' />
+            <img
+              alt='geekflare'
+              className={styles.geekflare}
+              src='/assets/geekflare.webp'
+            />
           </a>
 
           <a
@@ -23,7 +27,11 @@ export class CTASection extends Component {
             rel='noreferrer'
             target='_blank'
           >
-            <img alt="product-hunt" className={styles.producthunt} src='/assets/producthunt.png' />
+            <img
+              alt='product-hunt'
+              className={styles.producthunt}
+              src='/assets/producthunt.png'
+            />
           </a>
 
           <a
@@ -31,7 +39,7 @@ export class CTASection extends Component {
             rel='noreferrer'
             target='_blank'
           >
-            <img alt="bdm" className={styles.bdm} src='/assets/bdm.png' />
+            <img alt='bdm' className={styles.bdm} src='/assets/bdm.png' />
           </a>
         </div>
         <a className={styles.cta} href='https://app.reacher.email/signup'>
