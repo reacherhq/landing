@@ -103,7 +103,7 @@
       },
       {
         "name": "Bulk Verification",
-        "desc": "Upload a list of emails, and download the results as CSV. Only available with the Commercial License, [read more](https://help.reacher.email/bulk-email-verification).",
+        "desc": "Upload a list of emails, and download the results as CSV. The [bulk email verification](https://help.reacher.email/bulk-email-verification) is only available with the Commercial License.",
         "icon": "src/assets/img/powerful.svg"
       },
       {
