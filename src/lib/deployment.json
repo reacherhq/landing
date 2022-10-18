@@ -216,14 +216,11 @@
   ],
   "saas": {
     "headerName": null,
-    "logo": "https://storage.googleapis.com/saasify-uploads-prod/696e287ad79f0e0352bc201b36d701849f7d55e7.svg",
+    "logo": "https://reacher.email/assets/reacher-logo.svg",
     "logoLight": null,
-    "favicon": "https://storage.googleapis.com/saasify-uploads-prod/ae7aba60db49352ef6d6782747f6c94dcf4c5029.png",
+    "favicon": "https://reacher.email/assets/reacher-64.png",
     "exampleImage": null,
-    "scripts": [
-      "https://storage.googleapis.com/saasify-uploads-prod/e3e26beb4eca4a0709e75ea22a7a05188582b3b8.js",
-      "https://storage.googleapis.com/saasify-uploads-prod/90513403649860aef14653e78e1e22a6324591c5.js"
-    ],
+    "scripts": [],
     "htmlPreBody": [],
     "htmlPostBody": [],
     "styles": [],
@@ -231,47 +228,47 @@
       {
         "name": "Yes, it scales",
         "desc": "Reacher is stateless, so fits well for horizontal scaling technologies. **Prevent spam sign-ups** on your website, or **clean large lists**, both with Reacher.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/8d7bb70bf74f55d401c44cb2e0ce7f813003757b.svg"
+        "icon": "https://reacher.email/assets/feature-world.svg"
       },
       {
         "name": "Warp Speeds",
         "desc": "Reacher is built with the fast and performant [Rust](https://www.rust-lang.org/) programming language, using the [Warp](https://github.com/seanmonstar/warp) web framework. For real-time email verification, **it's fast**.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/a8c8dcef62d3ed5a77c120bc390502a274a58aa5.svg"
+        "icon": "https://reacher.email/assets/feature-server.svg"
       },
       {
         "name": "Highest Accuracy Possible",
         "desc": "Reacher actually connects to the mail server and checks in **real-time** if the email exists. We don't use historical data.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/24ef0772da2760de569dce1c5e8bc495e23551d5.svg"
+        "icon": "https://reacher.email/assets/feature-check.svg"
       },
       {
         "name": "Fully Featured",
         "desc": "We check for MTA, MX records, SMTP, hard bounces, catch-all, disposable email, role-based accounts... and [much more](https://help.reacher.email/email-attributes-inside-json).",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/377b175b9d6cd568642424f37b50445ebe197659.svg"
+        "icon": "https://reacher.email/assets/feature-dashboard.svg"
       },
       {
         "name": "Privacy Guaranteed",
         "desc": "It's simple: once you get the result of your email verifications, we delete everything on our side. We are GDPR compliant.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/38e04e75af049826a74109dc26db3f6cb66087aa.svg"
+        "icon": "https://reacher.email/assets/feature-meditation.svg"
       },
       {
         "name": "Free for Personal Use",
         "desc": "Start with **50 free** emails every month. Scale with our [pay-as-you-go](/pricing) plans afterwards.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/aee82d15ab2363a199e1b998fd70f9e837b506a3.svg"
+        "icon": "https://reacher.email/assets/feature-stripe.svg"
       },
       {
         "name": "Bulk Verification",
-        "desc": "Upload a list of emails, and download the results as CSV. The [bulk email verification](https://help.reacher.email/bulk-email-verification) is only available with the Commercial License.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/de73f4e8d08270555337be7f8f55fb01b597a225.svg"
+        "desc": "Upload a list of emails, and download the results as CSV with Reacher's [bulk email verification](https://help.reacher.email/bulk-email-verification).",
+        "icon": "https://reacher.email/assets/feature-couch.svg"
       },
       {
         "name": "White Label",
         "desc": "Run your own email verifier using the [White Label](https://help.reacher.email/white-label-email-verifier) version: use Reacher's world-class tech, keep your own brand.",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/c3cc80bf290617979fe9c89cabd3d181c0d34cd1.svg"
+        "icon": "https://reacher.email/assets/feature-api.svg"
       },
       {
         "name": "Open-Source",
         "desc": "In order to guarantee transparency with your data, Reacher is 100% [open-source](https://github.com/reacherhq/check-if-email-exists)!",
-        "icon": "https://storage.googleapis.com/saasify-uploads-prod/b0a714829a4cac045d3cf13243e37f5b8435274d.svg"
+        "icon": "https://reacher.email/assets/feature-opensource.svg"
       }
     ],
     "name": "Reacher",
