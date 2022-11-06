@@ -9,7 +9,7 @@ export class IndieSection extends Component {
     return (
       <Section id='cta' {...this.props}>
         <div className={styles.container}>
-          <img alt='amaury' className={styles.pic} src='/assets/amaury.jpg' />
+          <img alt='amaury' className={styles.pic} src='/img/amaury.jpg' />
           <p className={styles.paragraph}>
             Hi, I'm{' '}
             <a href='http://amaurym.com/' rel='noreferrer' target='_blank'>

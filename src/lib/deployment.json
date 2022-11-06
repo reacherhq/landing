@@ -216,9 +216,9 @@
   ],
   "saas": {
     "headerName": null,
-    "logo": "https://reacher.email/assets/reacher-logo.svg",
+    "logo": "/img/reacher-logo.svg",
     "logoLight": null,
-    "favicon": "https://reacher.email/assets/reacher-64.png",
+    "favicon": "/img/reacher-64.png",
     "exampleImage": null,
     "scripts": [],
     "htmlPreBody": [],
@@ -228,47 +228,47 @@
       {
         "name": "Yes, it scales",
         "desc": "Reacher is stateless, so fits well for horizontal scaling technologies. **Prevent spam sign-ups** on your website, or **clean large lists**, both with Reacher.",
-        "icon": "https://reacher.email/assets/feature-world.svg"
+        "icon": "/img/feature-world.svg"
       },
       {
         "name": "Warp Speeds",
         "desc": "Reacher is built with the fast and performant [Rust](https://www.rust-lang.org/) programming language, using the [Warp](https://github.com/seanmonstar/warp) web framework. For real-time email verification, **it's fast**.",
-        "icon": "https://reacher.email/assets/feature-server.svg"
+        "icon": "/img/feature-server.svg"
       },
       {
         "name": "Highest Accuracy Possible",
         "desc": "Reacher actually connects to the mail server and checks in **real-time** if the email exists. We don't use historical data.",
-        "icon": "https://reacher.email/assets/feature-check.svg"
+        "icon": "/img/feature-check.svg"
       },
       {
         "name": "Fully Featured",
         "desc": "We check for MTA, MX records, SMTP, hard bounces, catch-all, disposable email, role-based accounts... and [much more](https://help.reacher.email/email-attributes-inside-json).",
-        "icon": "https://reacher.email/assets/feature-dashboard.svg"
+        "icon": "/img/feature-dashboard.svg"
       },
       {
         "name": "Privacy Guaranteed",
         "desc": "It's simple: once you get the result of your email verifications, we delete everything on our side. We are GDPR compliant.",
-        "icon": "https://reacher.email/assets/feature-meditation.svg"
+        "icon": "/img/feature-meditation.svg"
       },
       {
         "name": "Free for Personal Use",
         "desc": "Start with **50 free** emails every month. Scale with our [pay-as-you-go](/pricing) plans afterwards.",
-        "icon": "https://reacher.email/assets/feature-stripe.svg"
+        "icon": "/img/feature-stripe.svg"
       },
       {
         "name": "Bulk Verification",
         "desc": "Upload a list of emails, and download the results as CSV with Reacher's [bulk email verification](https://help.reacher.email/bulk-email-verification).",
-        "icon": "https://reacher.email/assets/feature-couch.svg"
+        "icon": "/img/feature-couch.svg"
       },
       {
         "name": "White Label",
         "desc": "Run your own email verifier using the [White Label](https://help.reacher.email/white-label-email-verifier) version: use Reacher's world-class tech, keep your own brand.",
-        "icon": "https://reacher.email/assets/feature-api.svg"
+        "icon": "/img/feature-api.svg"
       },
       {
         "name": "Open-Source",
         "desc": "In order to guarantee transparency with your data, Reacher is 100% [open-source](https://github.com/reacherhq/check-if-email-exists)!",
-        "icon": "https://reacher.email/assets/feature-opensource.svg"
+        "icon": "/img/feature-opensource.svg"
       }
     ],
     "name": "Reacher",
