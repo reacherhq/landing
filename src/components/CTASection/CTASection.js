@@ -42,7 +42,7 @@ export class CTASection extends Component {
             <img alt='bdm' className={styles.bdm} src='/img/bdm.png' />
           </a>
         </div>
-        <a className={styles.cta} href='https://app.reacher.email/signup'>
+        <a className={styles.cta} href='https://app.reacher.email/signup' data-sa-link-event="landing-blogs-cta">
           <CTAButton>Get started for free</CTAButton>
         </a>
       </Section>

@@ -39,7 +39,7 @@ export class HeroSection extends Component {
           <img className={theme(styles, 'image')} src={hero.image} />
         )}
 
-        <a href='https://app.reacher.email/signup'>
+        <a href='https://app.reacher.email/signup' data-sa-link-event="landing-hero-cta">
           <CTAButton>{hero?.cta || 'Get started'}</CTAButton>
         </a>
       </Section>
