@@ -126,7 +126,7 @@ const saasifyConfig = {
         label: 'Help Center',
         links: [
           {
-            label: 'Beginner\'s Guide',
+            label: "Beginner's Guide",
             href: 'https://help.reacher.email/verify-your-1st-email'
           },
           {
