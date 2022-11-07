@@ -126,16 +126,12 @@ const saasifyConfig = {
         label: 'Help Center',
         links: [
           {
-            label: 'Self-Host',
+            label: "Beginner's Guide",
+            href: 'https://help.reacher.email/verify-your-1st-email'
+          },
+          {
+            label: 'Self-Host Guide',
             href: 'https://help.reacher.email/self-host-guide'
-          },
-          {
-            label: 'Terms of Service',
-            href: 'https://help.reacher.email/terms-of-service'
-          },
-          {
-            label: 'Privacy Policy',
-            href: 'https://help.reacher.email/privacy-policy'
           },
           {
             label: 'Mentions Légales 🇫🇷',

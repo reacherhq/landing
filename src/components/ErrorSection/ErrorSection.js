@@ -34,7 +34,7 @@ export class ErrorSection extends Component {
         {...rest}
       >
         <UndrawSVG
-          name='/assets/error.png'
+          name='/img/error.png'
           className={theme(styles, 'illustration')}
         />
       </Section>

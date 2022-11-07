@@ -2,4 +2,4 @@
 build/
 dist/
 node_modules/
-src/assets/js/*.js
+public/js/*.js
