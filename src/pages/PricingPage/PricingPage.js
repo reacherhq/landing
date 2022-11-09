@@ -11,6 +11,7 @@ import {
 } from 'components'
 
 import styles from './styles.module.css'
+import { Bf2022 } from '../../components/Bf2022/Bf2022'
 
 @withTracker
 export class PricingPage extends Component {
@@ -20,6 +21,7 @@ export class PricingPage extends Component {
         <ScrollToTopOnMount />
 
         <NavHeader />
+        <Bf2022 />
 
         <div className={theme(styles, 'main')}>
           <div className={theme(styles, 'main-body')}>

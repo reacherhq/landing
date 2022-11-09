@@ -15,6 +15,7 @@ import {
 } from 'components'
 
 import styles from './styles.module.css'
+import { Bf2022 } from '../../components'
 
 @withTracker
 @inject('config')
@@ -26,6 +27,7 @@ export class HomePage extends Component {
 
     return (
       <div className={theme(styles, 'home-page')}>
+        <Bf2022 />
         <ScrollToTopOnMount />
 
         <NavHeader />
