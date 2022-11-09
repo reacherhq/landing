@@ -10,10 +10,12 @@ export class Bf2022 extends Component {
         <strong>
           <u>20% off everything</u>
         </strong>{' '}
-        until Dec 2nd. Code:{' '}
+        for first 3 months. Code:{' '}
         <strong>
           RCHBF2022 &nbsp;&nbsp;&nbsp;
-          <a href='https://app.reacher.email?ref=RCHBF2022'>Sign up now →</a>
+          <a href='https://app.reacher.email?utm_campaign=RCHBF2022'>
+            Sign up now →
+          </a>
         </strong>
         .
       </div>
