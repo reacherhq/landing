@@ -27,10 +27,10 @@ export class HomePage extends Component {
 
     return (
       <div className={theme(styles, 'home-page')}>
-        <Bf2022 />
         <ScrollToTopOnMount />
 
         <NavHeader />
+        <Bf2022 />
 
         <div className={theme(styles, 'main')}>
           <div

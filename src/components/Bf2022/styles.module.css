@@ -4,8 +4,8 @@
   left: 0;
   line-height: 32px;
   text-align: center;
-  position: fixed;
-  top: 80px;
+  position: sticky;
+  top: 78px;
   width: 100%;
   z-index: 20;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
