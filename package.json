@@ -7,7 +7,7 @@
   "homepage": "https://saasify.sh",
   "license": "MIT",
   "engines": {
-    "node": ">=10"
+    "node": "16.x"
   },
   "scripts": {
     "update-deployment": "saasify get amaurymartiny/reacher@latest -o src/lib/deployment.json",
