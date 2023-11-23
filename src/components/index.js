@@ -54,6 +54,7 @@ export {
   Loading
 }
 
+export * from './Bf2023'
 export * from './HeroSection'
 export * from './DemoSection'
 export * from './FeaturesSection'
