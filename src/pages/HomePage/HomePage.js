@@ -15,7 +15,6 @@ import {
 } from 'components'
 
 import styles from './styles.module.css'
-import { Bf2023 } from '../../components'
 
 @withTracker
 @inject('config')
@@ -30,7 +29,6 @@ export class HomePage extends Component {
         <ScrollToTopOnMount />
 
         <NavHeader />
-        <Bf2023 />
 
         <div className={theme(styles, 'main')}>
           <div
