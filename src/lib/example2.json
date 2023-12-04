@@ -1,0 +1,39 @@
+{
+  "isGeneratedInput": false,
+  "isGeneratedOutput": true,
+  "inputContentType": "application/json",
+  "outputContentType": "application/json",
+  "input": {
+    "to_email": "amaury@reacher.email"
+  },
+  "name": "Basic",
+  "output": {
+    "input": "amaury@reacher.email",
+    "is_reachable": "safe",
+    "misc": {
+      "is_disposable": false,
+      "is_role_account": false,
+      "gravatar_url": null,
+      "haveibeenpwned": null
+    },
+    "mx": {
+      "accepts_mail": true,
+      "records": ["mailsec.protonmail.ch.", "mail.protonmail.ch."]
+    },
+    "smtp": {
+      "can_connect_smtp": true,
+      "has_full_inbox": false,
+      "is_catch_all": false,
+      "is_deliverable": true,
+      "is_disabled": false
+    },
+    "syntax": {
+      "address": "amaury@reacher.email",
+      "domain": "reacher.email",
+      "is_valid_syntax": true,
+      "username": "amaury",
+      "normalized_email": "amaury@reacher.email",
+      "suggestion": null
+    }
+  }
+}

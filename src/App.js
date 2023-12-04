@@ -52,10 +52,6 @@ const saasifyConfig = {
         to: '/pricing'
       },
       {
-        label: 'White Label',
-        href: 'https://help.reacher.email/white-label-email-verifier'
-      },
-      {
         label: 'Help Center',
         href: 'https://help.reacher.email'
       }
