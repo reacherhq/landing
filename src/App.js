@@ -48,12 +48,12 @@ const saasifyConfig = {
   header: {
     links: [
       {
-        label: 'Pricing',
-        href: 'https://app.reacher.email/pricing'
-      },
-      {
         label: 'Help Center',
         href: 'https://help.reacher.email'
+      },
+      {
+        label: 'Pricing',
+        href: 'https://app.reacher.email/pricing'
       }
     ],
     actions: ({ auth }) => {
