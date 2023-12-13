@@ -49,7 +49,7 @@ const saasifyConfig = {
     links: [
       {
         label: 'Pricing',
-        to: '/pricing'
+        href: 'https://app.reacher.email/pricing'
       },
       {
         label: 'Help Center',
@@ -97,7 +97,7 @@ const saasifyConfig = {
           },
           {
             label: 'Pricing',
-            to: '/pricing'
+            href: 'https://app.reacher.email/pricing'
           },
           ({ auth }) =>
             auth.isAuthenticated

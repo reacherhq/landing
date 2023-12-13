@@ -1,36 +1,11 @@
-import React, { Component } from 'react'
-import { theme } from 'react-saasify'
+import { Component } from 'react'
 import { withTracker } from 'lib/with-tracker'
-
-import {
-  NavHeader,
-  NavFooter,
-  ScrollToTopOnMount,
-  PricingSection,
-  EnterpriseSection
-} from 'components'
-
-import styles from './styles.module.css'
 
 @withTracker
 export class PricingPage extends Component {
   render() {
-    return (
-      <div className={theme(styles, 'pricing-page')}>
-        <ScrollToTopOnMount />
-
-        <NavHeader />
-
-        <div className={theme(styles, 'main')}>
-          <div className={theme(styles, 'main-body')}>
-            <PricingSection />
-          </div>
-        </div>
-
-        <EnterpriseSection />
-
-        <NavFooter />
-      </div>
-    )
+    // Redirect to new pricing page
+    window.location.href = 'https://app.reacher.email/pricing'
+    return 'Redirecting...'
   }
 }
