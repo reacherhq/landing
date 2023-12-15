@@ -246,14 +246,14 @@
         "icon": "/img/feature-dashboard.svg"
       },
       {
-        "name": "Privacy Guaranteed",
-        "desc": "It's simple: once you get the result of your email verifications, we delete everything on our side. We are GDPR compliant.",
-        "icon": "/img/feature-meditation.svg"
+        "name": "Cancel Anytime",
+        "desc": "Reacher offers a 30-day money-back guarantee. If you're not satisfied, you can cancel anytime.",
+        "icon": "/img/feature-stripe.svg"
       },
       {
-        "name": "Free for Personal Use",
-        "desc": "Start with **50 free** emails every month. Scale with our [pay-as-you-go](/pricing) plans afterwards.",
-        "icon": "/img/feature-stripe.svg"
+        "name": "Powerful API",
+        "desc": "Reacher is built with a powerful API in mind. You can use it to **integrate** email verification in your own apps.",
+        "icon": "/img/feature-meditation.svg"
       },
       {
         "name": "Bulk Verification",
@@ -273,11 +273,11 @@
     ],
     "name": "Reacher",
     "heading": "**Open-Source Email Verification API**",
-    "subheading": "Prevent bounced emails with world-class email verification. Free for personal use.",
+    "subheading": "Prevent bounced emails with world-class email verification.",
     "repo": "https://github.com/reacherhq",
     "sections": {
       "hero": {
-        "cta": "50 emails/mo for free"
+        "cta": "Get Started"
       },
       "navFooter": {
         "email": "mailto:amaury@reacher.email",

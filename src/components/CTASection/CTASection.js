@@ -47,7 +47,7 @@ export class CTASection extends Component {
           href='https://app.reacher.email/signup'
           data-sa-link-event='landing-blogs-cta'
         >
-          <CTAButton>Get started for free</CTAButton>
+          <CTAButton>Get started now</CTAButton>
         </a>
       </Section>
     )

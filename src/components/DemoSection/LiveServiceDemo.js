@@ -93,18 +93,9 @@ export class LiveServiceDemo extends Component {
     if (outputError) {
       renderedOutput = (
         <div className={theme(styles, 'error')}>
-          {outputError === 'Request failed with status code 401' ? (
-            <>
-              Reacher is temporarily pausing this public endpoint due to spam
-              abuse. Please{' '}
-              <a href='https://app.reacher.email/signup'>
-                create a free account
-              </a>{' '}
-              for 50 emails / month.
-            </>
-          ) : (
-            outputError
-          )}
+          Reacher is temporarily pausing this public endpoint due to spam abuse.
+          Please{' '}
+          <a href='https://app.reacher.email/signup'>create an account</a>.
         </div>
       )
     } else if (hitRateLimit) {
