@@ -54,6 +54,19 @@ const saasifyConfig = {
       {
         label: 'Pricing',
         href: 'https://app.reacher.email/pricing'
+      },
+      {
+        label: (
+          <small>
+            <img
+              style={{ width: '1rem', marginBottom: '0.3rem' }}
+              alt='github'
+              src='/img/github-mark.svg'
+            />
+            &nbsp;4K
+          </small>
+        ),
+        href: 'https://github.com/reacherhq/check-if-email-exists'
       }
     ],
     actions: ({ auth }) => {
