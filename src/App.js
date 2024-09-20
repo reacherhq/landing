@@ -48,8 +48,8 @@ const saasifyConfig = {
   header: {
     links: [
       {
-        label: 'Help Center',
-        href: 'https://help.reacher.email'
+        label: 'Docs',
+        href: 'https://docs.reacher.email'
       },
       {
         label: 'Pricing',
@@ -132,27 +132,31 @@ const saasifyConfig = {
         ]
       },
       {
-        label: 'Help Center',
+        label: 'Docs',
         links: [
           {
-            label: "Beginner's Guide",
-            href: 'https://help.reacher.email/verify-your-1st-email'
+            label: 'Getting Started',
+            href: 'https://docs.reacher.email/getting-started/quickstart'
           },
           {
-            label: 'Self-Host Guide',
-            href: 'https://help.reacher.email/self-host-guide'
+            label: 'Self-Host',
+            href: 'https://docs.reacher.email/self-hosting/install'
+          },
+          {
+            label: 'Proxies',
+            href: 'https://docs.reacher.email/self-hosting/proxies'
           },
           {
             label: 'Mentions Légales 🇫🇷',
-            href: 'https://help.reacher.email/mentions-lgales'
+            href: 'https://app.reacher.email/legal/mentions'
           },
           {
             label: 'CGU-CGV 🇫🇷',
-            href: 'https://help.reacher.email/cgu-cgv'
+            href: 'https://app.reacher.email/legal/terms'
           },
           {
             label: 'Politique de Confidentialité 🇫🇷',
-            href: 'https://help.reacher.email/politique-de-confidentialit'
+            href: 'https://app.reacher.email/legal/privacy'
           }
         ]
       },
@@ -166,10 +170,6 @@ const saasifyConfig = {
           {
             label: 'Github',
             href: 'https://github.com/reacherhq/check-if-email-exists'
-          },
-          {
-            label: 'Help Center',
-            href: 'https://help.reacher.email'
           }
         ]
       }

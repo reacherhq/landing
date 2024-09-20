@@ -4,7 +4,7 @@ Whether you’re new to email verifications or seasoned in all things SMTP, this
 
 The Reacher API is organized around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). Our API has predictable resource-oriented URLs, accepts [form-encoded](<https://en.wikipedia.org/wiki/POST_(HTTP)#Use_for_submitting_web_forms>) request bodies, returns [JSON-encoded](www.json.org) responses, and uses standard HTTP response codes, authentication, and verbs.
 
-The documentation on this page focuses on the technical side of Reacher. If you have non-technical question, be sure to also check our [Help Center](https://help.reacher.email).
+The documentation on this page focuses on the technical side of Reacher. If you have non-technical question, be sure to also check our [Docs](https://docs.reacher.email).
 
 ### Working with Reacher's API
 
