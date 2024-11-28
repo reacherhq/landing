@@ -21,7 +21,8 @@
         "url": "https://reacher.email"
       },
       "repositoryUrl": {
-        "url": "https://github.com/reacherhq/check-if-email-exists"
+        "url": "https://github.com/reacherhq/check-if-email-exists",
+        "wellKnown": "https://github.com/reacherhq/check-if-email-exists/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:AGPL-3.0", "commercial"],
       "tags": ["email", "email-validation", "email-verification"]
