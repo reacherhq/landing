@@ -1,0 +1,62 @@
+{
+  "version": "v1.0.0",
+
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Reacher",
+    "email": "amaury@reacher.email",
+    "description": "My name is Amaury, and I am an indie hacker and solo founder building Reacher, a powerful open-source email verification API.",
+    "webpageUrl": {
+      "url": "https://reacher.email"
+    }
+  },
+
+  "projects": [
+    {
+      "guid": "reacher",
+      "name": "Reacher",
+      "description": "Reacher is a powerful, open-source email verification API.",
+      "webpageUrl": {
+        "url": "https://reacher.email"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/reacherhq/check-if-email-exists"
+      },
+      "licenses": ["spdx:AGPL-3.0", "commercial"],
+      "tags": ["email", "email-validation", "email-verification"]
+    }
+  ],
+
+  "funding": {
+    "channels": [
+      {
+        "guid": "mybank",
+        "type": "bank"
+      }
+    ],
+
+    "plans": [
+      {
+        "guid": "hosting-monthly",
+        "status": "active",
+        "name": "Hosting Support",
+        "description": "This plan covers the monthly server hosting and related service costs (OVH, Supabase, Stripe, Vercel) for Reacher.",
+        "amount": 100,
+        "currency": "EUR",
+        "frequency": "monthly",
+        "channels": ["mybank"]
+      },
+      {
+        "guid": "hire-developer",
+        "status": "active",
+        "name": "First Developer Hire Compensation",
+        "description": "To meet the project's growing needs, I plan to hire a part-time developer to expand Reacher's IP pool while maintaining its high IP reputation. This plan covers the annual gross employer cost for a part-time (50%) mid-level developer in France.",
+        "amount": 30000,
+        "currency": "EUR",
+        "frequency": "yearly",
+        "channels": ["mybank"]
+      }
+    ]
+  }
+}
