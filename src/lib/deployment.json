@@ -73,7 +73,7 @@
   "pricingPlans": [
     {
       "features": [
-        "[Full-featured](https://help.reacher.email/email-attributes-inside-json) email verifications.",
+        "[Full-featured](https://docs.reacher.email/getting-started/is-reachable) email verifications.",
         "Support via [Github Issues](https://github.com/reacherhq/check-if-email-exists/issues).",
         "Use **Reacher servers** with high IP reputation.",
         "**50 emails for free** per month.",
@@ -108,7 +108,7 @@
     },
     {
       "features": [
-        "[Full-featured](https://help.reacher.email/email-attributes-inside-json) email verifications.",
+        "[Full-featured](https://docs.reacher.email/getting-started/is-reachable) email verifications.",
         "**Priority** customer support via email/chat.",
         "Use **Reacher servers** with high IP reputation.",
         "Up to 10K calls/month.",
@@ -143,7 +143,7 @@
     },
     {
       "features": [
-        "[Full-featured](https://help.reacher.email/email-attributes-inside-json) email verifications. **Priority** support.",
+        "[Full-featured](https://docs.reacher.email/getting-started/is-reachable) email verifications. **Priority** support.",
         "💪 **Bulk** email verification support. [Read more](https://help.reacher.email/bulk-email-verification).",
         "Self-host Reacher in **your commercial apps**.",
         "Comes with [self-host guides](https://help.reacher.email/self-host-guide) (Docker 🐳).",
@@ -231,9 +231,9 @@
         "icon": "/img/feature-world.svg"
       },
       {
-        "name": "Warp Speeds",
-        "desc": "Reacher is built with the fast and performant [Rust](https://www.rust-lang.org/) programming language, using the [Warp](https://github.com/seanmonstar/warp) web framework. For real-time email verification, **it's fast**.",
-        "icon": "/img/feature-server.svg"
+        "name": "Why Self-Host?",
+        "desc": "Two reasons. First, for larger volumes, it's **10x cheaper** than competitors. Second, you get to keep your email lists private. You can [self-host Reacher in 20 minutes](https://docs.reacher.email/self-hosting/install).",
+        "icon": "/img/feature-api.svg"
       },
       {
         "name": "Highest Accuracy Possible",
@@ -242,28 +242,28 @@
       },
       {
         "name": "Fully Featured",
-        "desc": "We check for MTA, MX records, SMTP, hard bounces, catch-all, disposable email, role-based accounts... and [much more](https://help.reacher.email/email-attributes-inside-json).",
+        "desc": "We check for MTA, MX records, SMTP, hard bounces, catch-all, disposable email, role-based accounts... and [much more](https://docs.reacher.email/getting-started/is-reachable).",
         "icon": "/img/feature-dashboard.svg"
+      },
+      {
+        "name": "Powerful Proxies",
+        "desc": "Reacher integrates seamlessly with SOCKS5 proxies. Learn more about [recommended proxies](https://docs.reacher.email/self-hosting/proxies).",
+        "icon": "/img/feature-server.svg"
+      },
+      {
+        "name": "Warp Speeds",
+        "desc": "Reacher is built with the fast and performant [Rust](https://www.rust-lang.org/) programming language. For real-time email verification, **it's fast**.",
+        "icon": "/img/feature-meditation.svg"
+      },
+      {
+        "name": "Bulk Verification",
+        "desc": "Upload a list of emails, and download the results as CSV with Reacher's [bulk email verification](https://docs.reacher.email/advanced/migrations/bulk).",
+        "icon": "/img/feature-couch.svg"
       },
       {
         "name": "Cancel Anytime",
         "desc": "Reacher offers a 30-day money-back guarantee. If you're not satisfied, you can cancel anytime.",
         "icon": "/img/feature-stripe.svg"
-      },
-      {
-        "name": "Powerful API",
-        "desc": "Reacher is built with a powerful API in mind. You can use it to **integrate** email verification in your own apps.",
-        "icon": "/img/feature-meditation.svg"
-      },
-      {
-        "name": "Bulk Verification",
-        "desc": "Upload a list of emails, and download the results as CSV with Reacher's [bulk email verification](https://help.reacher.email/bulk-email-verification).",
-        "icon": "/img/feature-couch.svg"
-      },
-      {
-        "name": "White Label",
-        "desc": "Run your own email verifier using the [White Label](https://help.reacher.email/white-label-email-verifier) version: use Reacher's world-class tech, keep your own brand.",
-        "icon": "/img/feature-api.svg"
       },
       {
         "name": "Open-Source",
@@ -277,7 +277,7 @@
     "repo": "https://github.com/reacherhq",
     "sections": {
       "hero": {
-        "cta": "Get Started"
+        "cta": "Get Started (free credits)"
       },
       "navFooter": {
         "email": "mailto:amaury@reacher.email",
@@ -621,7 +621,7 @@
           "type": "string",
           "title": "Reachable",
           "enum": ["invalid", "unknown", "safe", "risky"],
-          "description": "An enum to describe how confident we are that the recipient address is real: `safe`, `risky`, `invalid` and `unknown`. Check our FAQ to know the meanings of the 4 possibilities: https://help.reacher.email/email-attributes-inside-json."
+          "description": "An enum to describe how confident we are that the recipient address is real: `safe`, `risky`, `invalid` and `unknown`. Check our FAQ to know the meanings of the 4 possibilities: https://docs.reacher.email/getting-started/is-reachable."
         },
         "CheckEmailInput": {
           "title": "CheckEmailInput",
