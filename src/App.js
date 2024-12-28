@@ -56,6 +56,10 @@ const saasifyConfig = {
         href: 'https://app.reacher.email/pricing'
       },
       {
+        label: 'Blog',
+        href: 'https://app.reacher.email/en/blog/smtp'
+      },
+      {
         label: (
           <small>
             <img
@@ -63,7 +67,7 @@ const saasifyConfig = {
               alt='github'
               src='/img/github-mark.svg'
             />
-            &nbsp;4K
+            &nbsp;4.4K
           </small>
         ),
         href: 'https://github.com/reacherhq/check-if-email-exists'
