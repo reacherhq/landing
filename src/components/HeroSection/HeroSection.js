@@ -18,7 +18,8 @@ export class HeroSection extends Component {
 
     return (
       <Section
-        id='hero'
+        id="hero"
+        align="center"
         title={
           <ReactMarkdown
             source={saas.heading}
@@ -35,16 +36,44 @@ export class HeroSection extends Component {
         }
         {...this.props}
       >
+        {/* Optional hero image */}
         {hero?.image && (
-          <img className={theme(styles, 'image')} src={hero.image} />
+          <img
+            className={theme(styles, 'image')}
+            src={hero.image}
+            alt="Hero"
+          />
         )}
 
-        <a
-          href='https://app.reacher.email/signup'
-          data-sa-link-event='landing-hero-cta'
-        >
-          <CTAButton>{hero?.cta || 'Get started'}</CTAButton>
-        </a>
+        {/* CTA buttons */}
+        <div className={styles.ctaGroup}>
+          <a
+            href={saas.repo}
+            data-sa-link-event="landing-hero-github"
+          >
+            <CTAButton dark>
+              Get Started (GitHub)
+            </CTAButton>
+          </a>
+
+          <a
+            href="https://app.reacher.email/signup"
+            data-sa-link-event="landing-hero-hosted"
+          >
+            <CTAButton outline>
+              Try Hosted Reacher
+            </CTAButton>
+          </a>
+
+          <a
+            href="https://proxy25.com"
+            data-sa-link-event="landing-hero-proxies"
+          >
+            <CTAButton outline>
+              Scale with Proxies →
+            </CTAButton>
+          </a>
+        </div>
       </Section>
     )
   }

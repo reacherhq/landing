@@ -1,0 +1,153 @@
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 96px 24px;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  max-width: 720px;
+  margin: 0 auto 64px;
+  font-size: 18px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* STATS */
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+.statCard {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.statIcon {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 16px;
+}
+
+.statIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.yellow { color: #f59e0b; }
+.blue { color: #2563eb; }
+.green { color: #16a34a; }
+.purple { color: #7c3aed; }
+
+.statValue {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.statLabel {
+  font-size: 14px;
+  color: #475569;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 56px;
+}
+
+.testimonialCard {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  text-align: left;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+}
+
+.avatar,
+.avatarGreen {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  background: #2563eb;
+}
+
+.avatarGreen {
+  background: #16a34a;
+}
+
+.role {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.testimonialCard p {
+  font-size: 15px;
+  color: #334155;
+  line-height: 1.6;
+}
+
+/* CTA */
+
+.ctaRow {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.primaryCta {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.secondaryCta {
+  background: #ffffff;
+  color: #0f172a;
+  padding: 14px 24px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .statsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+}

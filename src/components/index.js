@@ -56,6 +56,12 @@ export {
 
 export * from './Bf2023'
 export * from './HeroSection'
+export * from './FeaturesSectionhero'
+export * from './ManagedSaaSSection'
+export * from './Proxy25InfrastructureSection'
+export * from './ThreePathsSection'
+export * from './CommunitySection'
+export * from './Footer'
 export * from './DemoSection'
 export * from './FeaturesSection'
 export * from './CTASection'
