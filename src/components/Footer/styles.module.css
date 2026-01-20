@@ -76,14 +76,31 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px; /* space between image and text */
+}
+
+.logoImage {
+  width: 64px;
+  height: 64px;
 }
 
 .logoText {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column; /* stack brand name and ownedBy */
 }
+
+.brandName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000; /* adjust as needed */
+}
+
+.ownedBy {
+  font-size: 12px;
+  color: #666; /* lighter grey for subtitle */
+  margin-top: 2px;
+}
+
 
 .ownedBy {
   display: flex;

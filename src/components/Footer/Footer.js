@@ -54,14 +54,10 @@ export class Footer extends Component {
   />
 
   <div className={styles.logoText}>
-    <strong>Reacher</strong>
-
-    <span className={styles.ownedBy}>
-      Owned by no2bounce
-    </span>
+    <strong className={styles.brandName}>Reacher</strong>
+    <span className={styles.ownedBy}>Owned by no2bounce</span>
   </div>
 </div>
-
 
               <p>
                 The open-source email verification API built for developers.
