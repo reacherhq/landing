@@ -43,7 +43,22 @@ import deployment from 'lib/deployment'
 const saasifyConfig = {
   deployment,
   coupons: deployment.coupons,
-  name: deployment.saas.name,
+name: (
+<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: 1.2 }}>
+  <span style={{ fontWeight: 700 }}>{deployment.saas.name}</span>
+  <span style={{ display: 'flex', alignItems: 'center', fontSize: '0.60rem', color: '#948c8c', marginTop: '4px', gap: '4px' }}>
+    Owned by
+    <img
+      src="https://staticassest.s3.eu-west-2.amazonaws.com/crm/logov2.png"
+      alt="Owned by Logo"
+      style={{ height: '12px', objectFit: 'contain',paddingBottom:'2px'}}
+    />
+  </span>
+</div>
+
+),
+
+
   logo: deployment.saas.logo,
   header: {
     
