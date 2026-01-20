@@ -46,32 +46,33 @@ const saasifyConfig = {
   name: deployment.saas.name,
   logo: deployment.saas.logo,
   header: {
+    
     links: [
       {
-        label: 'Docs',
+        label: 'Open Source email verifier',
         href: 'https://docs.reacher.email'
       },
       {
-        label: 'Pricing',
+        label: 'SaaS email verifier',
         href: 'https://app.reacher.email/pricing'
       },
       {
-        label: 'Blog',
+        label: 'Proxies for email verification',
         href: 'https://app.reacher.email/en/blog/smtp'
       },
-      {
-        label: (
-          <small>
-            <img
-              style={{ width: '1rem', marginBottom: '0.3rem' }}
-              alt='github'
-              src='/img/github-mark.svg'
-            />
-            &nbsp;4.4K
-          </small>
-        ),
-        href: 'https://github.com/reacherhq/check-if-email-exists'
-      }
+      // {
+      //   label: (
+      //     <small>
+      //       <img
+      //         style={{ width: '1rem', marginBottom: '0.3rem' }}
+      //         alt='github'
+      //         src='/img/github-mark.svg'
+      //       />
+      //       &nbsp;4.4K
+      //     </small>
+      //   ),
+      //   href: 'https://github.com/reacherhq/check-if-email-exists'
+      // }
     ],
     actions: ({ auth }) => {
       return auth.isAuthenticated

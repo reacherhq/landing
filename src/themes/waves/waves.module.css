@@ -485,9 +485,9 @@
 
 .theme-waves .nav-header .link {
   color: var(--hero-color) !important;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .theme-waves .nav-header .link:hover {

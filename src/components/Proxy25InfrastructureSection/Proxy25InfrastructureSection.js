@@ -70,7 +70,7 @@ export class Proxy25InfrastructureSection extends Component {
 
           {/* TITLE */}
           <h2 className={styles.title}>
-            Verify at scale with Proxy25 global infrastructure
+            Verify at scale with Proxy global infrastructure
           </h2>
 
           {/* SUBTITLE */}
@@ -107,12 +107,12 @@ export class Proxy25InfrastructureSection extends Component {
           </div>
 
           {/* CTA */}
-          <a
+          {/* <a
             href="https://proxy25.com"
             className={styles.cta}
           >
-            Explore Proxy25.com
-          </a>
+            Explore Proxy.com
+          </a> */}
 
         </div>
       </Section>

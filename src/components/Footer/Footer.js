@@ -46,14 +46,22 @@ export class Footer extends Component {
           <div className={styles.grid}>
 
             <div className={styles.brand}>
-           <div className={styles.logo}>
+<div className={styles.logo}>
   <img
     src="/img/reacher-64.png"
     alt="Reacher logo"
     className={styles.logoImage}
   />
-  <strong>Reacher</strong>
+
+  <div className={styles.logoText}>
+    <strong>Reacher</strong>
+
+    <span className={styles.ownedBy}>
+      Owned by no2bounce
+    </span>
+  </div>
 </div>
+
 
               <p>
                 The open-source email verification API built for developers.
@@ -70,7 +78,7 @@ export class Footer extends Component {
               <h4 style={{color:"white"}}>Product</h4>
               <a href="#">Open Source</a>
               <a href="#">Hosted Service</a>
-              <a href="#">Proxy25</a>
+              <a href="#">Proxy</a>
               <a href="#">Pricing</a>
             </div>
 

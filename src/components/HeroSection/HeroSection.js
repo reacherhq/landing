@@ -20,12 +20,14 @@ export class HeroSection extends Component {
       <Section
         id="hero"
         align="center"
+       style={{ background: "transparent" }}
         title={
           <ReactMarkdown
             source={saas.heading}
             allowedTypes={allowedTypes}
             unwrapDisallowed
           />
+      
         }
         subtitle={
           <ReactMarkdown

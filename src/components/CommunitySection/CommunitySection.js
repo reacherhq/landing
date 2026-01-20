@@ -58,7 +58,7 @@ export class CommunitySection extends Component {
 
           <p className={styles.subtitle}>
             Reacher is developed in public on GitHub. Contributions and feedback
-            from the community drive the roadmap. Proxy25 revenue helps fund
+            from the community drive the roadmap. Proxy revenue helps fund
             ongoing open-source development.
           </p>
 
@@ -93,7 +93,7 @@ export class CommunitySection extends Component {
               </div>
               <p>
                 “The performance is outstanding. We process millions of emails
-                monthly with Reacher + Proxy25, and it’s been rock solid.”
+                monthly with Reacher + Proxy, and it’s been rock solid.”
               </p>
             </div>
           </div>

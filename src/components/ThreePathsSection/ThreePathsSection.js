@@ -112,7 +112,7 @@ export class ThreePathsSection extends Component {
 
               <h3>Proxies</h3>
               <p className={styles.cardDesc}>
-                Scale with Proxy25, works with any verifier
+                Scale with Proxy, works with any verifier
               </p>
 
               <ul className={styles.list}>
@@ -126,7 +126,7 @@ export class ThreePathsSection extends Component {
                 href="https://proxy25.com"
                 className={styles.cta}
               >
-                Explore Proxy25
+                Explore Proxy
               </a>
             </div>
 
