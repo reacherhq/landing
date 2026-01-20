@@ -139,7 +139,19 @@
   font-weight: 600;
   text-decoration: none;
 }
+.primaryCta:hover {
+  color: #ffffff;
+  transform: translateY(-2px); /* optional: remove if not needed */
+  box-shadow:
+    0 12px 28px rgba(79, 70, 229, 0.45);
+}
 
+.secondaryCta:hover {
+  color: #111111;
+  transform: translateY(-2px); /* optional: remove if not needed */
+  box-shadow:
+    0 12px 28px rgba(79, 70, 229, 0.45);
+}
 /* RESPONSIVE */
 
 @media (max-width: 1024px) {

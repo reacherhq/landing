@@ -23,6 +23,8 @@
 
 /* TOP BAR */
 
+/* TOP BAR */
+
 .topBar {
   display: flex;
   justify-content: center;
@@ -31,16 +33,28 @@
   font-size: 15px;
 }
 
+/* MAKE NAV HORIZONTAL */
+.topNav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* REMOVE BLOCK BEHAVIOR */
+.topNav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin: 0;
+  white-space: nowrap;
+}
+
+
+
 .star {
   font-weight: 700;
   color: #ffffff;
 }
 
-.topNav a {
-  color: #e5e7eb;
-  margin-left: 24px;
-  text-decoration: none;
-}
 
 /* GRID */
 
@@ -65,17 +79,12 @@
   gap: 10px;
 }
 
-.logo span {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  background: #3b5bfd;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
+.logoImage {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
+
 
 .logo strong {
   font-size: 18px;

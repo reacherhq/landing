@@ -1125,3 +1125,24 @@
 .theme-waves .docs-page p {
   font-family: var(--font-family);
 }
+/* ===============================
+   FINAL FOOTER GAP FIX
+   =============================== */
+
+/* 1. Remove last section margin (ACTUAL PROBLEM) */
+.theme-waves .section:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+/* 2. Ensure footer wrapper has no spacing */
+.theme-waves .section footer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 3. Reduce wave height pushing footer down */
+.theme-waves .home-page .main::after {
+  height: 120px !important;
+  bottom: -24px !important;
+}
+

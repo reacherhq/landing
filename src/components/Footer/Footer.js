@@ -46,10 +46,15 @@ export class Footer extends Component {
           <div className={styles.grid}>
 
             <div className={styles.brand}>
-              <div className={styles.logo}>
-                <span>R</span>
-                <strong>Reacher</strong>
-              </div>
+           <div className={styles.logo}>
+  <img
+    src="/img/reacher-64.png"
+    alt="Reacher logo"
+    className={styles.logoImage}
+  />
+  <strong>Reacher</strong>
+</div>
+
               <p>
                 The open-source email verification API built for developers.
               </p>
@@ -62,7 +67,7 @@ export class Footer extends Component {
             </div>
 
             <div>
-              <h4>Product</h4>
+              <h4 style={{color:"white"}}>Product</h4>
               <a href="#">Open Source</a>
               <a href="#">Hosted Service</a>
               <a href="#">Proxy25</a>
@@ -70,7 +75,7 @@ export class Footer extends Component {
             </div>
 
             <div>
-              <h4>Resources</h4>
+              <h4 style={{color:"white"}}>Resources</h4>
               <a href="#">Documentation</a>
               <a href="#">Blog</a>
               <a href="#">API Reference</a>
@@ -78,7 +83,7 @@ export class Footer extends Component {
             </div>
 
             <div>
-              <h4>Company</h4>
+              <h4 style={{color:"white"}}>Company</h4>
               <a href="#">About</a>
               <a href="#">Contact</a>
               <a href="#">Privacy Policy</a>

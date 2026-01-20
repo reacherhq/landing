@@ -53,12 +53,12 @@ export class HomePage extends Component {
         <ManagedSaaSSection />
         <Proxy25InfrastructureSection />
         <ThreePathsSection />
-        {/* <CommunitySection /> */}
+        <CommunitySection />
         {/* <CTASection />
 
         <IndieSection /> */}
-        {/* <Footer /> */}
-        <NavFooter />
+        <Footer />
+        {/* <NavFooter /> */}
       </div>
     )
   }
