@@ -29,6 +29,10 @@ import {
   PricingPage,
   NotFoundPage,
 
+  DocsPage,
+  TermsPage,
+  PrivacyPage,
+
   // auth flow
   LoginPage,
   LogoutPage,
@@ -64,16 +68,20 @@ const saasifyConfig = {
 
     links: [
       {
-        label: 'Open Source email verifier',
-        href: 'https://docs.reacher.email'
+        label: 'Open Source',
+        href: 'https://github.com/reacherhq'
       },
       {
-        label: 'SaaS email verifier',
-        href: 'https://app.no2bounce.com/pricing'
+        label: 'Hosted Service',
+        href: 'https://app.no2bounce.com'
       },
       {
-        label: 'Proxies for email verification',
-        href: 'https://app.no2bounce.com/en/blog/smtp'
+        label: 'Pricing',
+        href: 'https://www.no2bounce.com/pricing'
+      },
+      {
+        label: 'Proxies',
+        href: 'https://reacherdocs.no2bounce.com/self-hosting/integrations'
       },
       // {
       //   label: (
@@ -256,6 +264,10 @@ export default class App extends Component {
               <Route exact path='/' component={HomePage} />
 
               <Route path='/pricing' component={PricingPage} />
+
+              <Route path='/docs' component={DocsPage} />
+              <Route path='/terms' component={TermsPage} />
+              <Route path='/privacy' component={PrivacyPage} />
 
               <Route path='/login' component={LoginPage} />
               <Route path='/signup' component={SignupPage} />

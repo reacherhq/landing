@@ -142,14 +142,14 @@
 /* CODE */
 pre {
   margin: 0;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     'Liberation Mono', 'Courier New', monospace;
   line-height: 1.6;
-  white-space: pre;
+  white-space: pre-wrap;
   color: #e5e7eb;
 }
 

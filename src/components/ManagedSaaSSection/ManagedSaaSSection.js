@@ -116,35 +116,14 @@ export class ManagedSaaSSection extends Component {
             </div>
 
             <pre>
-              <code>{`curl -X POST https://api.reacher.email/v0/check_email \\
-  -H "Authorization: Bearer YOUR_API_KEY" \\
-  -H "Content-Type: application/json" \\
-  -d '{
-    "to_email": "user@example.com"
-  }'
-
-{
-  "input": "user@example.com",
-  "is_reachable": "safe",
-  "misc": {
-    "is_disposable": false,
-    "is_role_account": false
-  },
-  "mx": {
-    "accepts_mail": true,
-    "records": ["mx1.example.com"]
-  },
-  "smtp": {
-    "can_connect_smtp": true,
-    "has_full_inbox": false,
-    "is_catch_all": false,
-    "is_deliverable": true,
-    "is_disabled": false
-  },
-  "syntax": {
-    "is_valid_syntax": true
-  }
-}`}</code>
+              <code>{`curl --location 'https://connect.no2bounce.com/v2/n2b_validate_bulk'\\
+  --header 'apitoken: YOUR_API_KEY_HERE' \\
+  --header 'Content-Type: application/json' \\
+  --data-raw '{
+    "emails": [
+      "support@no2bounce.com"
+    ]
+  }'`}</code>
             </pre>
           </div>
         </div>

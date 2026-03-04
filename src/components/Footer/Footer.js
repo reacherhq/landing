@@ -34,9 +34,9 @@ export class Footer extends Component {
           <div className={styles.topBar}>
             <span className={styles.star}>4.4k</span>
             <nav className={styles.topNav}>
-              <a href="/pricing">Pricing</a>
-              <a href="/docs">Docs</a>
-              <a href="/blog">Blog</a>
+              <a href="https://www.no2bounce.com/pricing">Pricing</a>
+              <a href="https://reacherdocs.no2bounce.com/">Docs</a>
+              <a href="https://app.no2bounce.com/en/blog/smtp">Blog</a>
             </nav>
           </div>
 
@@ -46,52 +46,52 @@ export class Footer extends Component {
           <div className={styles.grid}>
 
             <div className={styles.brand}>
-<div className={styles.logo}>
-  <img
-    src="/img/reacher-64.png"
-    alt="Reacher logo"
-    className={styles.logoImage}
-  />
+              <div className={styles.logo}>
+                <img
+                  src="/img/reacher-64.png"
+                  alt="Reacher logo"
+                  className={styles.logoImage}
+                />
 
-  <div className={styles.logoText}>
-    <strong className={styles.brandName}>Reacher</strong>
-    <span className={styles.ownedBy}>Owned by no2bounce</span>
-  </div>
-</div>
+                <div className={styles.logoText}>
+                  <strong className={styles.brandName}>Reacher</strong>
+                  <span className={styles.ownedBy}>Owned by no2bounce</span>
+                </div>
+              </div>
 
               <p>
                 The open-source email verification API built for developers.
               </p>
 
               <div className={styles.socials}>
-                <a href="https://github.com/reacherhq/reacher"><GitHubIcon /></a>
-                <a href="#"><TwitterIcon /></a>
-                <a href="#"><LinkedInIcon /></a>
+                <a href="https://github.com/reacherhq"><GitHubIcon /></a>
+                <a href="https://x.com/no2bounce"><TwitterIcon /></a>
+                <a href="https://linkedin.com/company/no2bounce"><LinkedInIcon /></a>
               </div>
             </div>
 
             <div>
-              <h4 style={{color:"white"}}>Product</h4>
-              <a href="#">Open Source</a>
-              <a href="#">Hosted Service</a>
-              <a href="#">Proxy</a>
-              <a href="#">Pricing</a>
+              <h4 style={{ color: "white" }}>Product</h4>
+              <a href="https://github.com/reacherhq">Open Source</a>
+              <a href="https://app.no2bounce.com">Hosted Service</a>
+              <a href="https://reacherdocs.no2bounce.com/self-hosting/integrations">Proxy</a>
+              <a href="https://www.no2bounce.com/pricing">Pricing</a>
             </div>
 
             <div>
-              <h4 style={{color:"white"}}>Resources</h4>
-              <a href="#">Documentation</a>
-              <a href="#">Blog</a>
-              <a href="#">API Reference</a>
-              <a href="#">Community</a>
+              <h4 style={{ color: "white" }}>Resources</h4>
+              <a href="https://reacherdocs.no2bounce.com/">Documentation</a>
+              <a href="https://app.no2bounce.com/en/blog/smtp">Blog</a>
+              <a href="https://reacherdocs.no2bounce.com/advanced/openapi">API Reference</a>
+              <a href="https://github.com/reacherhq">Community</a>
             </div>
 
             <div>
-              <h4 style={{color:"white"}}>Company</h4>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms of Service</a>
+              <h4 style={{ color: "white" }}>Company</h4>
+              <a href="https://www.no2bounce.com">About</a>
+              <a href="mailto:support@no2bounce.com">Contact</a>
+              <a href="/privacy">Privacy Policy</a>
+              <a href="/terms">Terms of Service</a>
             </div>
 
           </div>
@@ -102,10 +102,10 @@ export class Footer extends Component {
           <div className={styles.bottom}>
             <span>© 2026 Reacher. All rights reserved.</span>
             <nav>
-              <a href="#">4.4k GitHub Stars</a>
-              <a href="/pricing">Pricing</a>
-              <a href="/docs">Docs</a>
-              <a href="/blog">Blog</a>
+              <a href="https://github.com/reacherhq">4.4k GitHub Stars</a>
+              <a href="https://www.no2bounce.com/pricing">Pricing</a>
+              <a href="https://reacherdocs.no2bounce.com/">Docs</a>
+              <a href="https://app.no2bounce.com/en/blog/smtp">Blog</a>
             </nav>
           </div>
 
