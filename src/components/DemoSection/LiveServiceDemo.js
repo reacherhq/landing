@@ -95,7 +95,7 @@ export class LiveServiceDemo extends Component {
         <div className={theme(styles, 'error')}>
           Reacher is temporarily pausing this public endpoint due to spam abuse.
           Please{' '}
-          <a href='https://app.reacher.email/signup'>create an account</a>.
+          <a href='https://app.no2bounce.com/signup'>create an account</a>.
         </div>
       )
     } else if (hitRateLimit) {

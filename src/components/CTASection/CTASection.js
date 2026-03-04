@@ -44,7 +44,7 @@ export class CTASection extends Component {
         </div>
         <a
           className={styles.cta}
-          href='https://app.reacher.email/signup'
+          href='https://app.no2bounce.com/signup'
           data-sa-link-event='landing-blogs-cta'
         >
           <CTAButton>Get started now</CTAButton>

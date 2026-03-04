@@ -1,0 +1,121 @@
+/* WRAPPER — adds top & bottom spacing */
+
+.wrapper {
+  padding: 80px 4px;
+}
+/* SECTION BACKGROUND */
+
+.section {
+  background: linear-gradient(
+    180deg,
+    #f1f5f9 0%,
+    #ffffff 60%
+  );
+}
+
+/* CARD */
+
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 56px 48px;
+  max-width: 960px;
+  margin: 0 auto;
+  box-shadow:
+    0 8px 20px rgba(15, 23, 42, 0.08),
+    0 30px 60px rgba(15, 23, 42, 0.12);
+  text-align: center;
+}
+
+
+/* TITLE */
+
+.title {
+  font-size: 34px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 14px;
+  letter-spacing: -0.015em;
+}
+.githubButton:hover {
+  color: #ffffff;
+  transform: translateY(-2px); /* optional: remove if not needed */
+  box-shadow:
+    0 12px 28px rgba(79, 70, 229, 0.45);
+}
+/* SUBTITLE */
+
+.subtitle {
+  font-size: 17px;
+  color: #475569;
+  margin-bottom: 44px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* FEATURES GRID */
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px 36px;
+  text-align: left;
+  margin-bottom: 44px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 15px;
+  color: #0f172a;
+}
+
+/* CHECK ICON */
+
+.checkIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #16a34a;
+  flex-shrink: 0;
+}
+
+.checkIcon svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* GITHUB BUTTON */
+
+.githubButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 14px 22px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.25);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .card {
+    padding: 40px 24px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}

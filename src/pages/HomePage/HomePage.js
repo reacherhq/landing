@@ -8,7 +8,13 @@ import {
   NavFooter,
   ScrollToTopOnMount,
   HeroSection,
+  FeaturesSectionhero,
+  ManagedSaaSSection,
+  Proxy25InfrastructureSection,
+  CommunitySection,
   FeaturesSection,
+  ThreePathsSection,
+   Footer,
   CTASection,
   DemoSection,
   IndieSection
@@ -39,18 +45,20 @@ export class HomePage extends Component {
             )}
           >
             <HeroSection />
-
             <DemoSection />
           </div>
         </div>
+        <FeaturesSectionhero />
+        {/* <FeaturesSection /> */}
+        <ManagedSaaSSection />
+        <Proxy25InfrastructureSection />
+        <ThreePathsSection />
+        <CommunitySection />
+        {/* <CTASection />
 
-        <FeaturesSection />
-
-        <CTASection />
-
-        <IndieSection />
-
-        <NavFooter />
+        <IndieSection /> */}
+        <Footer />
+        {/* <NavFooter /> */}
       </div>
     )
   }

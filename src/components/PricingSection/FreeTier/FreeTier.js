@@ -22,7 +22,7 @@ export class FreeTier extends Component {
         context={null}
         plan={{
           ...plan,
-          ctaLink: 'https://app.reacher.email/signup',
+          ctaLink: 'https://app.no2bounce.com/signup',
           name: (
             <span>
               Free Tier

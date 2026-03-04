@@ -22,7 +22,7 @@ export class Tenk extends Component {
         key={plan.slug} // 10k-v2
         plan={{
           ...plan,
-          ctaLink: 'https://app.reacher.email/signup',
+          ctaLink: 'https://app.no2bounce.com/signup',
           name: (
             <span>
               10K Emails (SaaS)

@@ -29,6 +29,10 @@ import {
   PricingPage,
   NotFoundPage,
 
+  DocsPage,
+  TermsPage,
+  PrivacyPage,
+
   // auth flow
   LoginPage,
   LogoutPage,
@@ -43,64 +47,84 @@ import deployment from 'lib/deployment'
 const saasifyConfig = {
   deployment,
   coupons: deployment.coupons,
-  name: deployment.saas.name,
+  name: (
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: 1.2 }}>
+      <span style={{ fontWeight: 700 }}>{deployment.saas.name}</span>
+      <span style={{ display: 'flex', alignItems: 'center', fontSize: '0.60rem', color: '#948c8c', marginTop: '4px', gap: '4px' }}>
+        Owned by
+        <img
+          src="https://staticassest.s3.eu-west-2.amazonaws.com/crm/logov2.png"
+          alt="Owned by Logo"
+          style={{ height: '12px', objectFit: 'contain', paddingBottom: '2px' }}
+        />
+      </span>
+    </div>
+
+  ),
+
+
   logo: deployment.saas.logo,
   header: {
+
     links: [
       {
-        label: 'Docs',
-        href: 'https://docs.reacher.email'
+        label: 'Open Source',
+        href: 'https://github.com/reacherhq'
+      },
+      {
+        label: 'Hosted Service',
+        href: 'https://app.no2bounce.com'
       },
       {
         label: 'Pricing',
-        href: 'https://app.reacher.email/pricing'
+        href: 'https://www.no2bounce.com/pricing'
       },
       {
-        label: 'Blog',
-        href: 'https://app.reacher.email/en/blog/smtp'
+        label: 'Proxies',
+        href: 'https://reacherdocs.no2bounce.com/self-hosting/integrations'
       },
-      {
-        label: (
-          <small>
-            <img
-              style={{ width: '1rem', marginBottom: '0.3rem' }}
-              alt='github'
-              src='/img/github-mark.svg'
-            />
-            &nbsp;4.4K
-          </small>
-        ),
-        href: 'https://github.com/reacherhq/check-if-email-exists'
-      }
+      // {
+      //   label: (
+      //     <small>
+      //       <img
+      //         style={{ width: '1rem', marginBottom: '0.3rem' }}
+      //         alt='github'
+      //         src='/img/github-mark.svg'
+      //       />
+      //       &nbsp;4.4K
+      //     </small>
+      //   ),
+      //   href: 'https://github.com/reacherhq/check-if-email-exists'
+      // }
     ],
     actions: ({ auth }) => {
       return auth.isAuthenticated
         ? [
-            {
-              href: 'https://app.reacher.email/dashboard',
-              type: 'primary',
-              icon: 'home',
-              label: 'Dashboard'
-            },
-            {
-              to: '/logout',
-              type: 'secondary',
-              icon: 'logout',
-              label: 'Log out'
-            }
-          ]
+          {
+            href: 'https://app.no2bounce.com/dashboard',
+            type: 'primary',
+            icon: 'home',
+            label: 'Dashboard'
+          },
+          {
+            to: '/logout',
+            type: 'secondary',
+            icon: 'logout',
+            label: 'Log out'
+          }
+        ]
         : [
-            {
-              href: 'https://app.reacher.email/login',
-              type: 'secondary',
-              label: 'Log in'
-            },
-            {
-              href: 'https://app.reacher.email/signup',
-              type: 'primary',
-              label: 'Get started'
-            }
-          ]
+          {
+            href: 'https://app.no2bounce.com/login',
+            type: 'secondary',
+            label: 'Log in'
+          },
+          {
+            href: 'https://app.no2bounce.com/signup',
+            type: 'primary',
+            label: 'Get started'
+          }
+        ]
     }
   },
   footer: {
@@ -114,24 +138,24 @@ const saasifyConfig = {
           },
           {
             label: 'Pricing',
-            href: 'https://app.reacher.email/pricing'
+            href: 'https://app.no2bounce.com/pricing'
           },
           ({ auth }) =>
             auth.isAuthenticated
               ? {
-                  label: 'Dashboard',
-                  href: 'https://app.reacher.email/dashboard'
-                }
+                label: 'Dashboard',
+                href: 'https://app.no2bounce.com/dashboard'
+              }
               : {
-                  label: 'Get started',
-                  href: 'https://app.reacher.email/signup'
-                },
+                label: 'Get started',
+                href: 'https://app.no2bounce.com/signup'
+              },
           ({ auth }) =>
             auth.isAuthenticated
               ? {
-                  label: 'Account',
-                  href: 'https://app.reacher.email/dashboard'
-                }
+                label: 'Account',
+                href: 'https://app.no2bounce.com/dashboard'
+              }
               : null
         ]
       },
@@ -152,15 +176,15 @@ const saasifyConfig = {
           },
           {
             label: 'Mentions Légales 🇫🇷',
-            href: 'https://app.reacher.email/legal/mentions'
+            href: 'https://app.no2bounce.com/legal/mentions'
           },
           {
             label: 'CGU-CGV 🇫🇷',
-            href: 'https://app.reacher.email/legal/terms'
+            href: 'https://app.no2bounce.com/legal/terms'
           },
           {
             label: 'Politique de Confidentialité 🇫🇷',
-            href: 'https://app.reacher.email/legal/privacy'
+            href: 'https://app.no2bounce.com/legal/privacy'
           }
         ]
       },
@@ -240,6 +264,10 @@ export default class App extends Component {
               <Route exact path='/' component={HomePage} />
 
               <Route path='/pricing' component={PricingPage} />
+
+              <Route path='/docs' component={DocsPage} />
+              <Route path='/terms' component={TermsPage} />
+              <Route path='/privacy' component={PrivacyPage} />
 
               <Route path='/login' component={LoginPage} />
               <Route path='/signup' component={SignupPage} />

@@ -5,3 +5,16 @@
   border-radius: 8px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
+.ctaGroup {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin-top: 32px;
+  max-width: 720px;
+  width: 100%;
+}
