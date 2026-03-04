@@ -100,12 +100,12 @@ export class CommunitySection extends Component {
 
           {/* CTA */}
           <div className={styles.ctaRow}>
-            <a href="https://github.com/reacherhq/reacher" className={styles.primaryCta}>
+            <a href="https://github.com/reacherhq" className={styles.primaryCta}>
               Join GitHub Community
             </a>
-            <a href="#" className={styles.secondaryCta}>
+            {/* <a href="#" className={styles.secondaryCta}>
               Join Discord Server
-            </a>
+            </a> */}
           </div>
 
         </div>

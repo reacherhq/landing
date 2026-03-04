@@ -26,7 +26,7 @@ export class LoginPage extends Component {
   }
 
   componentWillMount() {
-    window.location.replace('https://app.reacher.email/login')
+    window.location.replace('https://app.no2bounce.com/login')
   }
 
   render() {
@@ -42,9 +42,9 @@ export class LoginPage extends Component {
           <Paper className={theme(styles, 'body')}>
             <div className={theme(styles, 'migration')}>
               <small>
-                ⚠️ If you have been invited to the new Reacher dashboard, please
+                ⚠️ If you have been invited to the new No2Bounce dashboard, please
                 login at{' '}
-                <a href='https://app.reacher.email/login'>the new login page</a>{' '}
+                <a href='https://app.no2bounce.com/login'>the new login page</a>{' '}
                 instead.
               </small>
             </div>

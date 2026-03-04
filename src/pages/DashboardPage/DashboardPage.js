@@ -21,7 +21,7 @@ import styles from './styles.module.css'
 @observer
 export class DashboardPage extends Component {
   componentWillMount() {
-    window.location.replace('https://app.reacher.email/dashboard')
+    window.location.replace('https://app.no2bounce.com/dashboard')
   }
 
   render() {

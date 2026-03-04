@@ -97,7 +97,7 @@ export class ThreePathsSection extends Component {
               </ul>
 
               <a
-                href="https://app.reacher.email/signup"
+                href="https://app.no2bounce.com/signup"
                 className={styles.cta}
               >
                 Start Free Trial

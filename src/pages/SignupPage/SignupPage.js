@@ -24,7 +24,7 @@ export class SignupPage extends Component {
   }
 
   componentWillMount() {
-    window.location.replace('https://app.reacher.email/signup')
+    window.location.replace('https://app.no2bounce.com/signup')
   }
 
   render() {

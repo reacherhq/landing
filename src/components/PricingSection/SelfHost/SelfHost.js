@@ -24,7 +24,7 @@ export class SelfHost extends Component {
         plan={{
           ...plan,
           context: null, // Remove top section hack.
-          ctaLink: 'https://app.reacher.email/signup',
+          ctaLink: 'https://app.no2bounce.com/signup',
           name: (
             <span>
               Commercial License

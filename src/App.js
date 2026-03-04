@@ -43,25 +43,25 @@ import deployment from 'lib/deployment'
 const saasifyConfig = {
   deployment,
   coupons: deployment.coupons,
-name: (
-<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: 1.2 }}>
-  <span style={{ fontWeight: 700 }}>{deployment.saas.name}</span>
-  <span style={{ display: 'flex', alignItems: 'center', fontSize: '0.60rem', color: '#948c8c', marginTop: '4px', gap: '4px' }}>
-    Owned by
-    <img
-      src="https://staticassest.s3.eu-west-2.amazonaws.com/crm/logov2.png"
-      alt="Owned by Logo"
-      style={{ height: '12px', objectFit: 'contain',paddingBottom:'2px'}}
-    />
-  </span>
-</div>
+  name: (
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: 1.2 }}>
+      <span style={{ fontWeight: 700 }}>{deployment.saas.name}</span>
+      <span style={{ display: 'flex', alignItems: 'center', fontSize: '0.60rem', color: '#948c8c', marginTop: '4px', gap: '4px' }}>
+        Owned by
+        <img
+          src="https://staticassest.s3.eu-west-2.amazonaws.com/crm/logov2.png"
+          alt="Owned by Logo"
+          style={{ height: '12px', objectFit: 'contain', paddingBottom: '2px' }}
+        />
+      </span>
+    </div>
 
-),
+  ),
 
 
   logo: deployment.saas.logo,
   header: {
-    
+
     links: [
       {
         label: 'Open Source email verifier',
@@ -69,11 +69,11 @@ name: (
       },
       {
         label: 'SaaS email verifier',
-        href: 'https://app.reacher.email/pricing'
+        href: 'https://app.no2bounce.com/pricing'
       },
       {
         label: 'Proxies for email verification',
-        href: 'https://app.reacher.email/en/blog/smtp'
+        href: 'https://app.no2bounce.com/en/blog/smtp'
       },
       // {
       //   label: (
@@ -92,31 +92,31 @@ name: (
     actions: ({ auth }) => {
       return auth.isAuthenticated
         ? [
-            {
-              href: 'https://app.reacher.email/dashboard',
-              type: 'primary',
-              icon: 'home',
-              label: 'Dashboard'
-            },
-            {
-              to: '/logout',
-              type: 'secondary',
-              icon: 'logout',
-              label: 'Log out'
-            }
-          ]
+          {
+            href: 'https://app.no2bounce.com/dashboard',
+            type: 'primary',
+            icon: 'home',
+            label: 'Dashboard'
+          },
+          {
+            to: '/logout',
+            type: 'secondary',
+            icon: 'logout',
+            label: 'Log out'
+          }
+        ]
         : [
-            {
-              href: 'https://app.reacher.email/login',
-              type: 'secondary',
-              label: 'Log in'
-            },
-            {
-              href: 'https://app.reacher.email/signup',
-              type: 'primary',
-              label: 'Get started'
-            }
-          ]
+          {
+            href: 'https://app.no2bounce.com/login',
+            type: 'secondary',
+            label: 'Log in'
+          },
+          {
+            href: 'https://app.no2bounce.com/signup',
+            type: 'primary',
+            label: 'Get started'
+          }
+        ]
     }
   },
   footer: {
@@ -130,24 +130,24 @@ name: (
           },
           {
             label: 'Pricing',
-            href: 'https://app.reacher.email/pricing'
+            href: 'https://app.no2bounce.com/pricing'
           },
           ({ auth }) =>
             auth.isAuthenticated
               ? {
-                  label: 'Dashboard',
-                  href: 'https://app.reacher.email/dashboard'
-                }
+                label: 'Dashboard',
+                href: 'https://app.no2bounce.com/dashboard'
+              }
               : {
-                  label: 'Get started',
-                  href: 'https://app.reacher.email/signup'
-                },
+                label: 'Get started',
+                href: 'https://app.no2bounce.com/signup'
+              },
           ({ auth }) =>
             auth.isAuthenticated
               ? {
-                  label: 'Account',
-                  href: 'https://app.reacher.email/dashboard'
-                }
+                label: 'Account',
+                href: 'https://app.no2bounce.com/dashboard'
+              }
               : null
         ]
       },
@@ -168,15 +168,15 @@ name: (
           },
           {
             label: 'Mentions Légales 🇫🇷',
-            href: 'https://app.reacher.email/legal/mentions'
+            href: 'https://app.no2bounce.com/legal/mentions'
           },
           {
             label: 'CGU-CGV 🇫🇷',
-            href: 'https://app.reacher.email/legal/terms'
+            href: 'https://app.no2bounce.com/legal/terms'
           },
           {
             label: 'Politique de Confidentialité 🇫🇷',
-            href: 'https://app.reacher.email/legal/privacy'
+            href: 'https://app.no2bounce.com/legal/privacy'
           }
         ]
       },

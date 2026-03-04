@@ -20,14 +20,14 @@ export class HeroSection extends Component {
       <Section
         id="hero"
         align="center"
-       style={{ background: "transparent" }}
+        style={{ background: "transparent" }}
         title={
           <ReactMarkdown
             source={saas.heading}
             allowedTypes={allowedTypes}
             unwrapDisallowed
           />
-      
+
         }
         subtitle={
           <ReactMarkdown
@@ -59,7 +59,7 @@ export class HeroSection extends Component {
           </a>
 
           <a
-            href="https://app.reacher.email/signup"
+            href="https://app.no2bounce.com/signup"
             data-sa-link-event="landing-hero-hosted"
           >
             <CTAButton outline>

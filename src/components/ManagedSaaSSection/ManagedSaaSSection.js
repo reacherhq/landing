@@ -16,8 +16,8 @@ const LightningIcon = () => (
 
 const CreditCardIcon = () => (
   <svg viewBox="0 0 24 24" fill="none">
-    <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" strokeWidth="2"/>
-    <path d="M2 10h20" stroke="currentColor" strokeWidth="2"/>
+    <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" strokeWidth="2" />
+    <path d="M2 10h20" stroke="currentColor" strokeWidth="2" />
   </svg>
 )
 
@@ -28,7 +28,7 @@ const UsersIcon = () => (
       stroke="currentColor"
       strokeWidth="2"
     />
-    <circle cx="9" cy="7" r="4" stroke="currentColor" strokeWidth="2"/>
+    <circle cx="9" cy="7" r="4" stroke="currentColor" strokeWidth="2" />
   </svg>
 )
 
@@ -100,7 +100,7 @@ export class ManagedSaaSSection extends Component {
             </div>
 
             <a
-              href="https://app.reacher.email/signup"
+              href="https://app.no2bounce.com/signup"
               className={styles.cta}
             >
               Try Hosted Reacher
@@ -116,7 +116,7 @@ export class ManagedSaaSSection extends Component {
             </div>
 
             <pre>
-<code>{`curl -X POST https://api.reacher.email/v0/check_email \\
+              <code>{`curl -X POST https://api.reacher.email/v0/check_email \\
   -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{
