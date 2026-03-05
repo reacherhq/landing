@@ -69,7 +69,7 @@ const saasifyConfig = {
     links: [
       {
         label: 'Open Source',
-        href: 'https://github.com/reacherhq'
+        href: 'https://app.no2bounce.com'
       },
       {
         label: 'Hosted Service',

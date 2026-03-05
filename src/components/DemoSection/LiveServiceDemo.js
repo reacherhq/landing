@@ -302,13 +302,14 @@ export class LiveServiceDemo extends Component {
             )}
 
             <div className={theme(styles, 'footer__action')}>
-              <Button
-                onClick={this._onClickRun}
-                type='secondary'
-                loading={running}
-              >
-                Run example
-              </Button>
+              <a href='https://app.no2bounce.com' rel='noopener noreferrer'>
+                <Button
+                  type='secondary'
+                  loading={running}
+                >
+                  Run example
+                </Button>
+              </a>
             </div>
           </div>
         </div>
