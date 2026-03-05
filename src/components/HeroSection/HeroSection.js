@@ -50,7 +50,7 @@ export class HeroSection extends Component {
         {/* CTA buttons */}
         <div className={styles.ctaGroup}>
           <a
-            href={saas.repo}
+             href="https://app.no2bounce.com/signup"
             data-sa-link-event="landing-hero-github"
           >
             <CTAButton dark>
@@ -68,7 +68,7 @@ export class HeroSection extends Component {
           </a>
 
           <a
-            href="https://proxy25.com"
+             href="https://app.no2bounce.com/signup"
             data-sa-link-event="landing-hero-proxies"
           >
             <CTAButton outline>

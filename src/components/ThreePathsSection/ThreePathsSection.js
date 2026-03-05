@@ -69,7 +69,7 @@ export class ThreePathsSection extends Component {
               </ul>
 
               <a
-                href="https://github.com/reacherhq/reacher"
+                href="https://app.no2bounce.com/signup"
                 className={styles.cta}
               >
                 Get Started
@@ -123,7 +123,7 @@ export class ThreePathsSection extends Component {
               </ul>
 
               <a
-                href="https://proxy25.com"
+                href="https://app.no2bounce.com/signup"
                 className={styles.cta}
               >
                 Explore Proxy
