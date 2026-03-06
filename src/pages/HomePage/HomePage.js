@@ -14,7 +14,7 @@ import {
   CommunitySection,
   FeaturesSection,
   ThreePathsSection,
-   Footer,
+  Footer,
   CTASection,
   DemoSection,
   IndieSection
@@ -54,9 +54,9 @@ export class HomePage extends Component {
         <Proxy25InfrastructureSection />
         <ThreePathsSection />
         <CommunitySection />
-        {/* <CTASection />
 
-        <IndieSection /> */}
+        <IndieSection />
+
         <Footer />
         {/* <NavFooter /> */}
       </div>

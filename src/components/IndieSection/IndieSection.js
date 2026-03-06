@@ -10,18 +10,23 @@ export class IndieSection extends Component {
       <Section id='cta' {...this.props}>
         <div className={styles.container}>
           <img alt='amaury' className={styles.pic} src='/img/amaury.jpg' />
-          <p className={styles.paragraph}>
-            Hi, I'm{' '}
-            <a href='http://amaurym.com/' rel='noreferrer' target='_blank'>
-              Amaury
-            </a>
-            , the developer of Reacher.
-            <br />I built Reacher to provide an open-source alternative to the
-            other big players in the email verification space, and I am
-            committed to making sure you love Reacher. If there is any way I can
-            help, email me directly at{' '}
-            <a href='mailto:amaury@reacher.email'>amaury@reacher.email</a>.
-          </p>
+          <div className={styles.content}>
+            <p className={styles.paragraph}>
+              Hi, I'm{' '}
+              <a rel='noreferrer' target='_blank'>
+                Amaury
+              </a>
+              , the developer of Reacher.
+            </p>
+            <p className={styles.paragraph}>
+              I built Reacher to provide an open-source alternative to the other
+              big players in the email verification space, and I am committed to
+              making sure you love Reacher.
+              {/* If there is any way I can help,
+              email me directly at{' '}
+              <a href='mailto:amaury@reacher.email'>amaury@reacher.email</a>. */}
+            </p>
+          </div>
         </div>
       </Section>
     )
