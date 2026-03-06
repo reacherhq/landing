@@ -5,15 +5,38 @@
   align-items: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .paragraph {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   margin-top: 0;
+  line-height: 1.5;
+  color: #333;
+}
+
+.paragraph a {
+  display: inline;
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.paragraph a:hover {
+  text-decoration: underline;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .pic {
-  border: 1px var(--color-primary) solid;
+  border: 2px #5a67d8 solid;
   border-radius: 50%;
   margin-right: 2rem;
   height: 7rem;
   width: 7rem;
+  flex-shrink: 0;
 }
