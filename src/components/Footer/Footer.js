@@ -58,6 +58,10 @@ export class Footer extends Component {
                   <span className={styles.ownedBy}>Owned by no2bounce</span>
                 </div>
               </div>
+  
+              <p>
+                Developed by Amaury.
+              </p>
 
               <p>
                 The open-source email verification API built for developers.
