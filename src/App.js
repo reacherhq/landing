@@ -71,7 +71,7 @@ const saasifyConfig = {
     links: [
       {
         label: 'Open Source',
-        href: 'https://app.no2bounce.com'
+        href: 'https://github.com/reacherhq/check-if-email-exists'
       },
       {
         label: 'Hosted Service',
@@ -79,11 +79,15 @@ const saasifyConfig = {
       },
       {
         label: 'Pricing',
-        href: 'https://www.no2bounce.com/pricing'
+        to: '/pricing'
       },
       {
         label: 'Proxies',
-        href: 'https://reacherdocs.no2bounce.com/self-hosting/integrations'
+        to: '/smtp_proxies_for_email_verification'
+      },
+      {
+        label: 'Catch-All',
+        to: '/catch-all_email_verification'
       },
       // {
       //   label: (
@@ -140,7 +144,7 @@ const saasifyConfig = {
           },
           {
             label: 'Pricing',
-            href: 'https://app.no2bounce.com/pricing'
+            to: '/pricing'
           },
           ({ auth }) =>
             auth.isAuthenticated

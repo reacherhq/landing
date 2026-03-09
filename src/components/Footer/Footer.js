@@ -35,7 +35,7 @@ export class Footer extends Component {
           <div className={styles.topBar}>
             <span className={styles.star}>4.4k</span>
             <nav className={styles.topNav}>
-              <a href="https://www.no2bounce.com/pricing">Pricing</a>
+              <Link to="/pricing">Pricing</Link>
               <a href="https://reacherdocs.no2bounce.com/">Docs</a>
               <a href="https://app.no2bounce.com/en/blog/smtp">Blog</a>
             </nav>
@@ -77,11 +77,11 @@ export class Footer extends Component {
 
             <div>
               <h4 style={{ color: "white" }}>Product</h4>
-              <a href="https://github.com/reacherhq">Open Source</a>
+              <a href="https://github.com/reacherhq/check-if-email-exists">Open Source</a>
               <a href="https://app.no2bounce.com">Hosted Service</a>
               <Link to="/smtp_proxies_for_email_verification">SMTP Proxies</Link>
               <Link to="/catch-all_email_verification">Catch-All Verification</Link>
-              <a href="https://www.no2bounce.com/pricing">Pricing</a>
+              <Link to="/pricing">Pricing</Link>
             </div>
 
             <div>
@@ -109,7 +109,7 @@ export class Footer extends Component {
             <span>© 2026 Reacher. All rights reserved.</span>
             <nav>
               <a href="https://github.com/reacherhq">4.4k GitHub Stars</a>
-              <a href="https://www.no2bounce.com/pricing">Pricing</a>
+              <Link to="/pricing">Pricing</Link>
               <a href="https://reacherdocs.no2bounce.com/">Docs</a>
               <a href="https://app.no2bounce.com/en/blog/smtp">Blog</a>
             </nav>
