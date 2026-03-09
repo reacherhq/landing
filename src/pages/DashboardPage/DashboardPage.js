@@ -8,7 +8,7 @@ import plans from 'lib/pricing-plans'
 
 import {
   NavHeader,
-  NavFooter,
+  Footer,
   ScrollToTopOnMount,
   DashboardSection,
   OnboardingSection
@@ -41,7 +41,7 @@ export class DashboardPage extends Component {
 
         <OnboardingSection />
 
-        <NavFooter />
+        <Footer />
       </div>
     )
   }

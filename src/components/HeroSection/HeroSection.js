@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { observer, inject } from 'mobx-react'
 import ReactMarkdown from 'react-markdown'
 
+import { Link } from 'react-router-dom'
 import { CTAButton, Section, theme } from 'react-saasify'
 
 import styles from './styles.module.css'
@@ -50,7 +51,7 @@ export class HeroSection extends Component {
         {/* CTA buttons */}
         <div className={styles.ctaGroup}>
           <a
-             href="https://app.no2bounce.com/signup"
+            href="https://github.com/reacherhq/check-if-email-exists"
             data-sa-link-event="landing-hero-github"
           >
             <CTAButton dark>
@@ -67,14 +68,14 @@ export class HeroSection extends Component {
             </CTAButton>
           </a>
 
-          <a
-             href="https://app.no2bounce.com/signup"
+          <Link
+            to="/smtp_proxies_for_email_verification"
             data-sa-link-event="landing-hero-proxies"
           >
             <CTAButton outline>
               Scale with Proxies →
             </CTAButton>
-          </a>
+          </Link>
         </div>
       </Section>
     )

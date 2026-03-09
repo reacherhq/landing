@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import { Section, NavHeader, NavFooter, ScrollToTopOnMount } from 'react-saasify'
+import { Section, NavHeader, ScrollToTopOnMount } from 'react-saasify'
 import { theme } from 'react-saasify'
 import { withTracker } from 'lib/with-tracker'
 
+import { Footer } from 'components'
 import styles from './styles.module.css'
 
 @withTracker
@@ -202,7 +203,7 @@ export class CatchAllPage extends Component {
                     </main>
                 </div>
 
-                <NavFooter />
+                <Footer />
             </div>
         )
     }

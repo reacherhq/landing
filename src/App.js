@@ -136,74 +136,73 @@ const saasifyConfig = {
   footer: {
     columns: [
       {
-        label: 'Sitemap',
+        label: 'Product',
         links: [
           {
-            label: 'Home',
-            to: '/'
+            label: 'Open Source',
+            href: 'https://github.com/reacherhq/check-if-email-exists'
+          },
+          {
+            label: 'Hosted Service',
+            href: 'https://app.no2bounce.com'
+          },
+          {
+            label: 'SMTP Proxies',
+            to: '/smtp_proxies_for_email_verification'
+          },
+          {
+            label: 'Catch-All Verification',
+            to: '/catch-all_email_verification'
           },
           {
             label: 'Pricing',
             to: '/pricing'
-          },
-          ({ auth }) =>
-            auth.isAuthenticated
-              ? {
-                label: 'Dashboard',
-                href: 'https://app.no2bounce.com/dashboard'
-              }
-              : {
-                label: 'Get started',
-                href: 'https://app.no2bounce.com/signup'
-              },
-          ({ auth }) =>
-            auth.isAuthenticated
-              ? {
-                label: 'Account',
-                href: 'https://app.no2bounce.com/dashboard'
-              }
-              : null
-        ]
-      },
-      {
-        label: 'Docs',
-        links: [
-          {
-            label: 'Getting Started',
-            href: 'https://docs.reacher.email/getting-started/quickstart'
-          },
-          {
-            label: 'Self-Host',
-            href: 'https://docs.reacher.email/self-hosting/install'
-          },
-          {
-            label: 'Proxies',
-            href: 'https://docs.reacher.email/self-hosting/proxies'
-          },
-          {
-            label: 'Mentions Légales 🇫🇷',
-            href: 'https://app.no2bounce.com/legal/mentions'
-          },
-          {
-            label: 'CGU-CGV 🇫🇷',
-            href: 'https://app.no2bounce.com/legal/terms'
-          },
-          {
-            label: 'Politique de Confidentialité 🇫🇷',
-            href: 'https://app.no2bounce.com/legal/privacy'
           }
         ]
       },
       {
-        label: 'Contact',
+        label: 'Resources',
         links: [
           {
-            label: 'Email',
-            href: 'mailto:amaury@reacher.email'
+            label: 'Documentation',
+            href: 'https://reacherdocs.no2bounce.com/'
           },
           {
-            label: 'Github',
+            label: 'Blog',
+            href: 'https://www.no2bounce.com/blog'
+          },
+          {
+            label: 'API Reference',
+            href: 'https://reacherdocs.no2bounce.com/advanced/openapi'
+          },
+          {
+            label: 'Community',
             href: 'https://github.com/reacherhq/check-if-email-exists'
+          },
+          {
+            label: '8.4k GitHub Stars',
+            href: 'https://github.com/reacherhq/check-if-email-exists'
+          }
+        ]
+      },
+      {
+        label: 'Company',
+        links: [
+          {
+            label: 'About',
+            href: 'https://www.no2bounce.com/about-us'
+          },
+          {
+            label: 'Contact',
+            href: 'mailto:teams@no2bounce.com'
+          },
+          {
+            label: 'Privacy Policy',
+            href: 'https://www.no2bounce.com/privacy-policy'
+          },
+          {
+            label: 'Terms of Service',
+            href: 'https://www.no2bounce.com/terms'
           }
         ]
       }

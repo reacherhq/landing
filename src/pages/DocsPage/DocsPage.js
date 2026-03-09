@@ -9,7 +9,7 @@ import {
   Loading,
   ScrollToTopOnMount,
   NavHeader,
-  NavFooter,
+  Footer,
   ErrorSection
 } from 'components'
 
@@ -42,7 +42,7 @@ export class DocsPage extends Component {
 
           {errorFallback}
 
-          <NavFooter />
+          <Footer />
         </div>
       )
     }
@@ -108,7 +108,7 @@ export class DocsPage extends Component {
           </Suspense>
         </ErrorBoundary>
 
-        <NavFooter />
+        <Footer />
       </div>
     )
   }

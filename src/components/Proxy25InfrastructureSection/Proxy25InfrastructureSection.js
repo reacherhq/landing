@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { Section } from 'react-saasify'
 import styles from './styles.module.css'
 
@@ -107,12 +108,12 @@ export class Proxy25InfrastructureSection extends Component {
           </div>
 
           {/* CTA */}
-          {/* <a
-            href="https://proxy25.com"
+          <Link
+            to="/smtp_proxies_for_email_verification"
             className={styles.cta}
           >
-            Explore Proxy.com
-          </a> */}
+            Details on SMTP proxies
+          </Link>
 
         </div>
       </Section>

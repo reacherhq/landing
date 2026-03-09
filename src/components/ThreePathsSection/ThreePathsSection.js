@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { Section } from 'react-saasify'
 import styles from './styles.module.css'
 
@@ -69,7 +70,7 @@ export class ThreePathsSection extends Component {
               </ul>
 
               <a
-                href="https://app.no2bounce.com/signup"
+                href="https://github.com/reacherhq/check-if-email-exists"
                 className={styles.cta}
               >
                 Get Started
@@ -122,12 +123,12 @@ export class ThreePathsSection extends Component {
                 <li>Enterprise-grade</li>
               </ul>
 
-              <a
-                href="https://app.no2bounce.com/signup"
+              <Link
+                to="/smtp_proxies_for_email_verification"
                 className={styles.cta}
               >
                 Explore Proxy
-              </a>
+              </Link>
             </div>
 
           </div>

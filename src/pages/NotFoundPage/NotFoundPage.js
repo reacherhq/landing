@@ -4,7 +4,7 @@ import { withTracker } from 'lib/with-tracker'
 
 import {
   NavHeader,
-  NavFooter,
+  Footer,
   ScrollToTopOnMount,
   NotFoundSection,
   CTASection
@@ -29,7 +29,7 @@ export class NotFoundPage extends Component {
 
         <CTASection />
 
-        <NavFooter />
+        <Footer />
       </div>
     )
   }

@@ -64,8 +64,8 @@ export class CommunitySection extends Component {
 
           {/* STATS */}
           <div className={styles.statsGrid}>
-            <StatCard icon={StarIcon} value="4.4k+" label="GitHub Stars" color="yellow" />
-            <StatCard icon={ForkIcon} value="250+" label="Forks" color="blue" />
+            <StatCard icon={StarIcon} value="8.4k+" label="GitHub Stars" color="yellow" />
+            <StatCard icon={ForkIcon} value="500+" label="Forks" color="blue" />
             <StatCard icon={UsersIcon} value="50+" label="Contributors" color="green" />
             <StatCard icon={ChatIcon} value="1.2k+" label="Community Members" color="purple" />
           </div>
@@ -100,7 +100,7 @@ export class CommunitySection extends Component {
 
           {/* CTA */}
           <div className={styles.ctaRow}>
-            <a href="https://github.com/reacherhq" className={styles.primaryCta}>
+            <a href="https://github.com/reacherhq/check-if-email-exists" className={styles.primaryCta}>
               Join GitHub Community
             </a>
             {/* <a href="#" className={styles.secondaryCta}>

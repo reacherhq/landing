@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import { Section, NavHeader, NavFooter, ScrollToTopOnMount } from 'react-saasify'
+import { Section, NavHeader, ScrollToTopOnMount } from 'react-saasify'
 import { theme } from 'react-saasify'
 import { withTracker } from 'lib/with-tracker'
 import { Link } from 'react-router-dom'
 
+import { Footer } from 'components'
 import styles from './styles.module.css'
 
 @withTracker
@@ -177,7 +178,7 @@ export class PricingPage extends Component {
           </main>
         </div>
 
-        <NavFooter />
+        <Footer />
       </div>
     )
   }

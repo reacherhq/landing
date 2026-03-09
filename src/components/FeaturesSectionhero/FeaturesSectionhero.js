@@ -48,7 +48,7 @@ export class FeaturesSectionhero extends Component {
             </div>
 
             <a
-              href="https://github.com/reacherhq"
+              href="https://github.com/reacherhq/check-if-email-exists"
               className={styles.githubButton}
             >
               View on GitHub
