@@ -63,7 +63,7 @@ export class SmtpProxiesPage extends Component {
                             </div>
                             <p>Typical process:</p>
                             <ol>
-                                <li>Submit the enquiry form</li>
+                                <li>Send an email to teams@no2bounce.com requesting proxy trial account details.</li>
                                 <li>We review your verification requirements</li>
                                 <li>You receive proxy endpoint credentials and setup instructions</li>
                             </ol>
