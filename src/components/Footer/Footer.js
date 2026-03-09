@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { Section } from 'react-saasify'
 import styles from './styles.module.css'
 
@@ -58,7 +59,7 @@ export class Footer extends Component {
                   <span className={styles.ownedBy}>Owned by no2bounce</span>
                 </div>
               </div>
-  
+
               <p>
                 Developed by Amaury.
               </p>
@@ -78,7 +79,8 @@ export class Footer extends Component {
               <h4 style={{ color: "white" }}>Product</h4>
               <a href="https://github.com/reacherhq">Open Source</a>
               <a href="https://app.no2bounce.com">Hosted Service</a>
-              <a href="https://reacherdocs.no2bounce.com/self-hosting/integrations">Proxy</a>
+              <Link to="/smtp_proxies_for_email_verification">SMTP Proxies</Link>
+              <Link to="/catch-all_email_verification">Catch-All Verification</Link>
               <a href="https://www.no2bounce.com/pricing">Pricing</a>
             </div>
 
