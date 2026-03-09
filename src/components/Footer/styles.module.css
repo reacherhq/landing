@@ -1,9 +1,7 @@
 .footer {
-  background: radial-gradient(
-    circle at top,
-    #0f172a 0%,
-    #020617 60%
-  );
+  background: radial-gradient(circle at top,
+      #0f172a 0%,
+      #020617 60%);
   color: #cbd5f5;
 }
 
@@ -53,6 +51,10 @@
 .star {
   font-weight: 700;
   color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
 }
 
 
@@ -76,7 +78,8 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px; /* space between image and text */
+  gap: 12px;
+  /* space between image and text */
 }
 
 .logoImage {
@@ -86,18 +89,21 @@
 
 .logoText {
   display: flex;
-  flex-direction: column; /* stack brand name and ownedBy */
+  flex-direction: column;
+  /* stack brand name and ownedBy */
 }
 
 .brandName {
   font-size: 18px;
   font-weight: bold;
-  color: #000; /* adjust as needed */
+  color: #000;
+  /* adjust as needed */
 }
 
 .ownedBy {
   font-size: 12px;
-  color: #666; /* lighter grey for subtitle */
+  color: #666;
+  /* lighter grey for subtitle */
   margin-top: 2px;
 }
 
@@ -112,7 +118,8 @@
 }
 
 .no2bounceLogo {
-  height: 14px;      /* small logo */
+  height: 14px;
+  /* small logo */
   width: auto;
   opacity: 0.9;
 }
@@ -141,6 +148,11 @@
   width: 18px;
   height: 18px;
   color: #94a3b8;
+}
+
+.xIcon {
+  width: 16px !important;
+  height: 16px !important;
 }
 
 /* LINKS */
@@ -181,5 +193,5 @@ a {
     gap: 40px;
   }
 
- 
+
 }

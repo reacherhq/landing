@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { theme } from 'react-saasify'
 import { withTracker } from 'lib/with-tracker'
 
-import { NavHeader, NavFooter, ScrollToTopOnMount } from 'components'
+import { NavHeader, Footer, ScrollToTopOnMount } from 'components'
 
 import styles from './styles.module.css'
 
@@ -875,7 +875,7 @@ export class TermsPage extends Component {
           </p>
         </div>
 
-        <NavFooter />
+        <Footer />
       </div>
     )
   }

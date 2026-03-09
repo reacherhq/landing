@@ -5,7 +5,7 @@ import { withTracker } from 'lib/with-tracker'
 
 import {
   NavHeader,
-  NavFooter,
+  Footer,
   ScrollToTopOnMount,
   ProfileSection,
   BillingSourcesSection,
@@ -33,7 +33,7 @@ export class AccountPage extends Component {
 
         <InvoicingSection />
 
-        <NavFooter />
+        <Footer />
       </div>
     )
   }

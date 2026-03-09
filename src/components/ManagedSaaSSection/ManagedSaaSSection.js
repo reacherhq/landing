@@ -121,7 +121,7 @@ export class ManagedSaaSSection extends Component {
   --header 'Content-Type: application/json' \\
   --data-raw '{
     "emails": [
-      "support@no2bounce.com"
+      "teams@no2bounce.com"
     ]
   }'`}</code>
             </pre>
