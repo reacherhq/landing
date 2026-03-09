@@ -65,10 +65,6 @@ export class Footer extends Component {
               </p>
 
               <p>
-                Developed by Amaury.
-              </p>
-
-              <p>
                 The open-source email verification API built for developers.
               </p>
 
