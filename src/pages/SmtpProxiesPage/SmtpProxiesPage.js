@@ -58,7 +58,7 @@ export class SmtpProxiesPage extends Component {
                             <h2>Request Access</h2>
                             <p>Submit an enquiry to request access to Reacher Port 25 SMTP Proxies.</p>
                             <div className={styles.enquiryBox}>
-                                <p>Please contact us at <a href="mailto:support@no2bounce.com">support@no2bounce.com</a> to request access.</p>
+                                <p>Please contact us at <a href="mailto:teams@no2bounce.com">teams@no2bounce.com</a> to request access.</p>
                                 <p>We typically respond within one business day.</p>
                             </div>
                             <p>Typical process:</p>
@@ -225,7 +225,7 @@ export class SmtpProxiesPage extends Component {
                             <h2>Request Access</h2>
                             <p>Submit an enquiry to request access to Reacher Port 25 SMTP Proxies.</p>
                             <div className={styles.enquiryBox}>
-                                <p>Please contact us at <a href="mailto:support@no2bounce.com">support@no2bounce.com</a> to request access.</p>
+                                <p>Please contact us at <a href="mailto:teams@no2bounce.com">teams@no2bounce.com</a> to request access.</p>
                                 <p>We typically respond within one business day.</p>
                             </div>
                         </section>

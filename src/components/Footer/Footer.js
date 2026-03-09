@@ -95,7 +95,7 @@ export class Footer extends Component {
             <div>
               <h4 style={{ color: "white" }}>Company</h4>
               <a href="https://www.no2bounce.com">About</a>
-              <a href="mailto:support@no2bounce.com">Contact</a>
+              <a href="mailto:teams@no2bounce.com">Contact</a>
               <a href="/privacy">Privacy Policy</a>
               <a href="/terms">Terms of Service</a>
             </div>
