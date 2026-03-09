@@ -190,10 +190,11 @@ export class CatchAllPage extends Component {
                             <p>Standard SMTP verification cannot determine whether addresses on catch-all domains belong to real users.</p>
                             <p>No2Bounce provides additional analysis to evaluate these addresses and help teams make better decisions.</p>
                             <p>Create an account to begin verifying catch-all addresses:</p>
-                            {/* <div className={styles.ctaBox}>
-                                <a href='https://app.no2bounce.com' className={styles.ctaButtonLarge}>https://app.no2bounce.com</a>
-                            </div> */}
+
                             <p>No2Bounce helps teams perform catch-all email verification and catch-all domain analysis to improve list quality and email deliverability.</p>
+                            <div className={styles.ctaBox}>
+                                <a href='https://app.no2bounce.com' className={styles.ctaButtonLarge}>Try No2Bounce Catch-all verifier</a>
+                            </div>
                         </section>
                         {/* <footer className={styles.pageFooter}>
                             <p>No2Bounce helps teams perform catch-all email verification and catch-all domain analysis to improve list quality and email deliverability.</p>
