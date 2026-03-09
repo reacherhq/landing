@@ -32,6 +32,8 @@ import {
   DocsPage,
   TermsPage,
   PrivacyPage,
+  SmtpProxiesPage,
+  CatchAllPage,
 
   // auth flow
   LoginPage,
@@ -271,6 +273,9 @@ export default class App extends Component {
 
               <Route path='/login' component={LoginPage} />
               <Route path='/signup' component={SignupPage} />
+
+              <Route path='/smtp_proxies_for_email_verification' component={SmtpProxiesPage} />
+              <Route path='/catch-all_email_verification' component={CatchAllPage} />
 
               <Route path='/auth/github' component={AuthGitHubPage} />
               <Route path='/auth/google' component={AuthGooglePage} />

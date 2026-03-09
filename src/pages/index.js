@@ -10,5 +10,7 @@ export * from './LogoutPage'
 export * from './SignupPage'
 export * from './CheckoutPage'
 
+export * from './CatchAllPage'
+export * from './SmtpProxiesPage'
 export * from './DashboardPage'
 export * from './AccountPage'
