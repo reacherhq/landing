@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { Section, NavHeader, ScrollToTopOnMount } from 'react-saasify'
 import { theme } from 'react-saasify'
 import { withTracker } from 'lib/with-tracker'
