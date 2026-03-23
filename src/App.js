@@ -220,8 +220,7 @@ export default class App extends Component {
     const themeRootClassName = ThemeManager.theme.rootClassName
 
     return (
-      <Provider auth={AuthManager} config={saasifyConfig}>
-        <React.Fragment>
+      <Provider auth={AuthManager} config={saasifyConfig}><React.Fragment>
           <Helmet>
             <title>
               {saas.name}
@@ -264,9 +263,7 @@ export default class App extends Component {
 
           <BodyClassName
             className={theme(null, themeClassName, themeRootClassName)}
-          >
-            <React.Fragment>
-              <Router>
+          ><React.Fragment><Router>
                 <Switch>
                   <Route exact path='/' component={HomePage} />
 
@@ -296,16 +293,13 @@ export default class App extends Component {
 
                   <Route component={NotFoundPage} />
                 </Switch>
-              </Router>
-            </React.Fragment>
-          </BodyClassName>
+              </Router></React.Fragment></BodyClassName>
 
           {saas.htmlPostBody &&
             saas.htmlPostBody.map((src, index) => (
               <InnerHTML key={index} html={src} />
             ))}
-        </React.Fragment>
-      </Provider>
+        </React.Fragment></Provider>
     )
   }
 }
