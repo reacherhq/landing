@@ -1,3 +1,12 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+if (typeof global === 'undefined') {
+  window.global = window
+}
+
+global.h = React.createElement.bind(React)
+
 /**
  * React application entrypoint.
  */
@@ -8,9 +17,6 @@ import 'styles/global.css'
 import 'react-saasify'
 import 'react-saasify/dist/index.css'
 import './lib/init'
-
-import React from 'react'
-import ReactDOM from 'react-dom'
 
 import App from './App'
 
