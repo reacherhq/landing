@@ -220,88 +220,86 @@ export default class App extends Component {
     const themeRootClassName = ThemeManager.theme.rootClassName
 
     return (
-      <Provider auth={AuthManager} config={saasifyConfig}>
-        <Helmet>
-          <title>
-            {saas.name}
-            {saas.heading ? ` - ${removeMd(saas.heading)}` : ''}
-          </title>
+      <Provider auth={AuthManager} config={saasifyConfig}><React.Fragment>
+          <Helmet>
+            <title>
+              {saas.name}
+              {saas.heading ? ` - ${removeMd(saas.heading)}` : ''}
+            </title>
 
-          {saas.favicon && <link rel='shortcut icon' href={saas.favicon} />}
+            {saas.favicon && <link rel='shortcut icon' href={saas.favicon} />}
 
-          <meta
-            name='description'
-            content='Reacher is a real-time, powerful, white-label email verification API service to reduce your bounce rate and avoid spam sign-ups. We check SMTP responses, MX records, catch-all and disposable addresses.'
-          />
+            <meta
+              name='description'
+              content='Reacher is a real-time, powerful, white-label email verification API service to reduce your bounce rate and avoid spam sign-ups. We check SMTP responses, MX records, catch-all and disposable addresses.'
+            />
 
-          {saas.scripts &&
-            saas.scripts.map((src) => (
-              <script key={src} src={src} type='text/javascript' />
+            {saas.scripts &&
+              saas.scripts.map((src) => (
+                <script key={src} src={src} type='text/javascript' />
+              ))}
+
+            {saas.styles &&
+              saas.styles.map((src) => (
+                <link key={src} rel='stylesheet' type='text/css' href={src} />
+              ))}
+
+            {fonts &&
+              fonts.map((font) => (
+                <link
+                  key={font}
+                  href={`https://fonts.googleapis.com/css?family=${font}&display=swap`}
+                  rel='stylesheet'
+                />
+              ))}
+
+            {saas.cx && <link rel='chrome-webstore-item' href={saas.cx} />}
+          </Helmet>
+
+          {saas.htmlPreBody &&
+            saas.htmlPreBody.map((src, index) => (
+              <InnerHTML key={index} html={src} />
             ))}
 
-          {saas.styles &&
-            saas.styles.map((src) => (
-              <link key={src} rel='stylesheet' type='text/css' href={src} />
+          <BodyClassName
+            className={theme(null, themeClassName, themeRootClassName)}
+          ><React.Fragment><Router>
+                <Switch>
+                  <Route exact path='/' component={HomePage} />
+
+                  <Route path='/pricing' component={PricingPage} />
+
+                  <Route path='/docs' component={DocsPage} />
+                  <Route path='/terms' component={TermsPage} />
+                  <Route path='/privacy' component={PrivacyPage} />
+
+                  <Route path='/login' component={LoginPage} />
+                  <Route path='/signup' component={SignupPage} />
+
+                  <Route path='/smtp_proxies_for_email_verification' component={SmtpProxiesPage} />
+                  <Route path='/catch-all_email_verification' component={CatchAllPage} />
+
+                  <Route path='/auth/github' component={AuthGitHubPage} />
+                  <Route path='/auth/google' component={AuthGooglePage} />
+                  <Route path='/auth/spotify' component={AuthSpotifyPage} />
+                  <Route path='/auth/linkedin' component={AuthLinkedInPage} />
+                  <Route path='/auth/twitter' component={AuthTwitterPage} />
+                  <Route path='/auth/stripe' component={AuthStripePage} />
+
+                  <AuthenticatedRoute path='/dashboard' component={DashboardPage} />
+                  <AuthenticatedRoute path='/account' component={DashboardPage} />
+                  <AuthenticatedRoute path='/checkout' component={DashboardPage} />
+                  <AuthenticatedRoute path='/logout' component={LogoutPage} />
+
+                  <Route component={NotFoundPage} />
+                </Switch>
+              </Router></React.Fragment></BodyClassName>
+
+          {saas.htmlPostBody &&
+            saas.htmlPostBody.map((src, index) => (
+              <InnerHTML key={index} html={src} />
             ))}
-
-          {fonts &&
-            fonts.map((font) => (
-              <link
-                key={font}
-                href={`https://fonts.googleapis.com/css?family=${font}&display=swap`}
-                rel='stylesheet'
-              />
-            ))}
-
-          {saas.cx && <link rel='chrome-webstore-item' href={saas.cx} />}
-        </Helmet>
-
-        {saas.htmlPreBody &&
-          saas.htmlPreBody.map((src, index) => (
-            <InnerHTML key={index} html={src} />
-          ))}
-
-        <BodyClassName
-          className={theme(null, themeClassName, themeRootClassName)}
-        >
-          <Router>
-            <Switch>
-              <Route exact path='/' component={HomePage} />
-
-              <Route path='/pricing' component={PricingPage} />
-
-              <Route path='/docs' component={DocsPage} />
-              <Route path='/terms' component={TermsPage} />
-              <Route path='/privacy' component={PrivacyPage} />
-
-              <Route path='/login' component={LoginPage} />
-              <Route path='/signup' component={SignupPage} />
-
-              <Route path='/smtp_proxies_for_email_verification' component={SmtpProxiesPage} />
-              <Route path='/catch-all_email_verification' component={CatchAllPage} />
-
-              <Route path='/auth/github' component={AuthGitHubPage} />
-              <Route path='/auth/google' component={AuthGooglePage} />
-              <Route path='/auth/spotify' component={AuthSpotifyPage} />
-              <Route path='/auth/linkedin' component={AuthLinkedInPage} />
-              <Route path='/auth/twitter' component={AuthTwitterPage} />
-              <Route path='/auth/stripe' component={AuthStripePage} />
-
-              <AuthenticatedRoute path='/dashboard' component={DashboardPage} />
-              <AuthenticatedRoute path='/account' component={DashboardPage} />
-              <AuthenticatedRoute path='/checkout' component={DashboardPage} />
-              <AuthenticatedRoute path='/logout' component={LogoutPage} />
-
-              <Route component={NotFoundPage} />
-            </Switch>
-          </Router>
-        </BodyClassName>
-
-        {saas.htmlPostBody &&
-          saas.htmlPostBody.map((src, index) => (
-            <InnerHTML key={index} html={src} />
-          ))}
-      </Provider>
+        </React.Fragment></Provider>
     )
   }
 }
