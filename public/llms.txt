@@ -1,0 +1,28 @@
+# Reacher
+
+> Reacher is the open-source, real-time email verification API for developers. It checks email addresses by talking SMTP directly to mail servers — verifying mailbox existence, MX records, disposable providers, and catch-all (accept-all) domains — to reduce bounce rates. Reacher is free to self-host, available as a managed service, and proven to handle 10M+ requests per day.
+
+Reacher offers three paths in one ecosystem:
+
+1. **Self-host (free, open-source):** Download and run the open-source Rust verification engine yourself — [check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) (8.4k+ GitHub stars).
+2. **Managed service:** Use the hosted Reacher API with pay-as-you-go pricing and no DevOps — handled by No2Bounce.
+3. **Scale with proxies:** Reacher Port 25 SMTP Proxies provide the network/infrastructure layer for reliable SMTP verification at scale; works with Reacher and any other SMTP verifier.
+
+The verification stack layers together: **Reacher** (SMTP verification engine) → **Reacher Port 25 SMTP Proxies** (reliable SMTP infrastructure) → **No2Bounce** (catch-all / accept-all email verification). The API is REST-based, accepts form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes. The core check-email endpoint is documented with cURL, Node.js, Python, and Go code snippets.
+
+## Pages
+
+- [Home](https://reacher.email/): The open-source email verification API; live demo, the three deployment paths (self-host, managed, proxies), and why Reacher is free, open-source, and built for developers.
+- [Pricing](https://reacher.email/pricing): Pay-as-you-go pricing for the managed email verification service.
+- [API Docs](https://docs.reacher.email): Full documentation on how to install, run and use Reacher.
+- [SMTP Proxies](https://reacher.email/smtp_proxies_for_email_verification): Reacher Port 25 SMTP Proxies — managed infrastructure that routes verification through large rotating high-reputation IP pools with smart MX routing (Google Workspace, Microsoft 365, Proofpoint, Mimecast). Solves greylisting, rate limiting, IP-reputation filtering, and port 25 restrictions. Plans from $49/month for up to 300,000 SMTP verification connections.
+- [Catch-All Verification](https://reacher.email/catch-all_email_verification): How catch-all (accept-all) domains defeat standard SMTP verification, and how No2Bounce evaluates whether an address on a catch-all domain likely belongs to a real user — covering catch-all detection vs. catch-all verification.
+
+## Open Source
+
+- [check-if-email-exists (GitHub)](https://github.com/reacherhq/check-if-email-exists): The open-source Rust project that powers Reacher. Self-host for free; supports proxy configuration (proxy_host, proxy_port, proxy_username, proxy_password).
+
+## Optional
+
+- [Terms of Service](https://reacher.email/terms): Terms governing use of the Reacher service.
+- [Privacy Policy](https://reacher.email/privacy): How Reacher handles user data.
