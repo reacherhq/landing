@@ -123,12 +123,12 @@ export class ThreePathsSection extends Component {
                 <li>Enterprise-grade</li>
               </ul>
 
-              <Link
-                to="/smtp_proxies_for_email_verification"
+              <a
+                href="/smtp_proxies_for_email_verification"
                 className={styles.cta}
               >
                 Explore Proxy
-              </Link>
+              </a>
             </div>
 
           </div>

@@ -53,29 +53,32 @@ export class HeroSection extends Component {
           <a
             href="https://github.com/reacherhq/check-if-email-exists"
             data-sa-link-event="landing-hero-github"
+            className={styles.heroLink}
           >
-            <CTAButton dark>
+            <div className={styles.heroBtnDark}>
               Get Started (GitHub)
-            </CTAButton>
+            </div>
           </a>
 
           <a
             href="https://app.no2bounce.com/signup"
             data-sa-link-event="landing-hero-hosted"
+            className={styles.heroLink}
           >
-            <CTAButton outline>
+            <div className={styles.heroBtnOutline}>
               Try Hosted Reacher
-            </CTAButton>
+            </div>
           </a>
 
-          <Link
-            to="/smtp_proxies_for_email_verification"
+          <a
+            href="/smtp_proxies_for_email_verification"
             data-sa-link-event="landing-hero-proxies"
+            className={styles.heroLink}
           >
-            <CTAButton outline>
+            <div className={styles.heroBtnOutline}>
               Scale with Proxies →
-            </CTAButton>
-          </Link>
+            </div>
+          </a>
         </div>
       </Section>
     )

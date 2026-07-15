@@ -102,7 +102,7 @@ export class PricingPage extends Component {
                 <li>MX-aware routing</li>
                 <li>Infrastructure optimized for verification workloads</li>
               </ul>
-              <p>Learn more on the <Link to="/smtp_proxies_for_email_verification">Reacher Proxies page</Link>.</p>
+              <p>Learn more on the <a href="/smtp_proxies_for_email_verification">Reacher Proxies page</a>.</p>
             </section>
 
             <section id='ecosystem'>
@@ -171,7 +171,7 @@ export class PricingPage extends Component {
                 <div className={styles.ctaItem}>
                   <strong>Explore SMTP proxy infrastructure:</strong>
                   <br />
-                  Visit the <Link to="/smtp_proxies_for_email_verification">Reacher Proxies page</Link>.
+                  Visit the <a href="/smtp_proxies_for_email_verification">Reacher Proxies page</a>.
                 </div>
               </div>
             </section>

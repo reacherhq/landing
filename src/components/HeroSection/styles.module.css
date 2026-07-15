@@ -18,3 +18,30 @@
   max-width: 720px;
   width: 100%;
 }
+
+.heroLink {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.heroBtnDark,
+.heroBtnOutline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6a55ff;
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 9999px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.heroBtnDark:hover,
+.heroBtnOutline:hover {
+  background-color: #5544cc;
+  color: #ffffff;
+}

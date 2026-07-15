@@ -108,12 +108,12 @@ export class Proxy25InfrastructureSection extends Component {
           </div>
 
           {/* CTA */}
-          <Link
-            to="/smtp_proxies_for_email_verification"
+          <a
+            href="/smtp_proxies_for_email_verification"
             className={styles.cta}
           >
             Details on SMTP proxies
-          </Link>
+          </a>
 
         </div>
       </Section>

@@ -120,7 +120,7 @@ export class OnboardingSection extends Component {
           }
           extra={
             <>
-              <Button type='primary' key='upgrade' href='/pricing'>
+              <Button type='primary' key='upgrade' onClick={() => window.location.href = '/pricing'}>
                 Upgrade
               </Button>
             </>
@@ -140,13 +140,13 @@ export class OnboardingSection extends Component {
                 <Button
                   type='secondary'
                   key='docs'
-                  href='https://help.reacher.email'
+                  onClick={() => window.open('https://help.reacher.email', '_blank', 'noopener,noreferrer')}
                 >
                   View docs
                 </Button>
               )}
 
-              <Button type='primary' key='upgrade' href='/pricing'>
+              <Button type='primary' key='upgrade' onClick={() => window.location.href = '/pricing'}>
                 Upgrade
               </Button>
             </>
@@ -188,7 +188,7 @@ export class OnboardingSection extends Component {
                     <Button
                       type='secondary'
                       key='docs'
-                      href='https://help.reacher.email/self-host-guide'
+                      onClick={() => window.open('https://help.reacher.email/self-host-guide', '_blank', 'noopener,noreferrer')}
                     >
                       View Self-Host Guide
                     </Button>
@@ -211,9 +211,7 @@ export class OnboardingSection extends Component {
                     {saas.cx ? (
                       <span>
                         <Button
-                          href={saas.cx}
-                          target='_blank'
-                          rel='noopener noreferrer'
+                          onClick={() => window.open(saas.cx, '_blank', 'noopener,noreferrer')}
                         >
                           Install Chrome Extension
                         </Button>
@@ -288,9 +286,9 @@ export class OnboardingSection extends Component {
                 title='Upgrade Plan'
                 description={
                   <span>
-                    <Link to={getUpgradeLink({ auth, deployment })}>
+                    <a href={getUpgradeLink({ auth, deployment })}>
                       Upgrade
-                    </Link>{' '}
+                    </a>{' '}
                     your plan once you're ready to verify more emails.
                   </span>
                 }

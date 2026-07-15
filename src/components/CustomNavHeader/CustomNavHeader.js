@@ -93,13 +93,13 @@ class CustomNavHeader extends Component {
 
     if (link.to) {
       return (
-        <Link
+        <a
           key={link.label}
-          to={link.to}
+          href={link.to}
           className={`${styles.link} ${isActive ? styles.linkActive : ''}`}
         >
           {link.label}
-        </Link>
+        </a>
       )
     }
     return (
@@ -123,7 +123,7 @@ class CustomNavHeader extends Component {
       <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.inner}>
           {/* Logo */}
-          <Link to='/' className={styles.logo} onClick={this._close}>
+          <a href='/' className={styles.logo} onClick={this._close}>
             <img
               src='/img/reacher-64.png'
               alt='Reacher Logo'
@@ -143,7 +143,7 @@ class CustomNavHeader extends Component {
                 />
               </span>
             </div>
-          </Link>
+          </a>
 
           {/* Desktop Nav Links */}
           <div className={styles.links}>
@@ -160,9 +160,9 @@ class CustomNavHeader extends Component {
                 >
                   Dashboard
                 </a>
-                <Link to='/logout' className={styles.btnLogin}>
+                <a href='/logout' className={styles.btnLogin}>
                   Log out
-                </Link>
+                </a>
               </>
             ) : (
               <>

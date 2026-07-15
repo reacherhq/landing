@@ -18,9 +18,7 @@ export class EnterpriseSection extends Component {
           <br />I reply pretty fast. 🚄
         </p>
 
-        <a href='mailto:amaury@reacher.email'>
-          <CTAButton>Ask me a question</CTAButton>
-        </a>
+        <CTAButton onClick={() => window.location.href = 'mailto:amaury@reacher.email'}>Ask me a question</CTAButton>
       </Section>
     )
   }

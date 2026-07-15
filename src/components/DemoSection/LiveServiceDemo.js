@@ -107,9 +107,9 @@ export class LiveServiceDemo extends Component {
           </div>
 
           <div className={theme(styles, 'output__cta__button')}>
-            <Link to={getUpgradeLink({ auth, deployment })}>
-              <Button type='primary'>Upgrade</Button>
-            </Link>
+            <Button type='primary' onClick={() => window.location.href = getUpgradeLink({ auth, deployment })}>
+              Upgrade
+            </Button>
           </div>
         </div>
       )
@@ -302,14 +302,13 @@ export class LiveServiceDemo extends Component {
             )}
 
             <div className={theme(styles, 'footer__action')}>
-              <a href='https://app.no2bounce.com' rel='noopener noreferrer'>
-                <Button
-                  type='secondary'
-                  loading={running}
-                >
-                  Run example
-                </Button>
-              </a>
+              <Button
+                type='secondary'
+                loading={running}
+                onClick={() => window.open('https://app.no2bounce.com', '_blank', 'noopener,noreferrer')}
+              >
+                Run example
+              </Button>
             </div>
           </div>
         </div>

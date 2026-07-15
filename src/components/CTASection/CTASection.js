@@ -42,13 +42,13 @@ export class CTASection extends Component {
             <img alt='bdm' className={styles.bdm} src='/img/bdm.png' />
           </a>
         </div>
-        <a
+        <CTAButton
           className={styles.cta}
-          href='https://app.no2bounce.com/signup'
+          onClick={() => window.location.href = 'https://app.no2bounce.com/signup'}
           data-sa-link-event='landing-blogs-cta'
         >
-          <CTAButton>Get started now</CTAButton>
-        </a>
+          Get started now
+        </CTAButton>
       </Section>
     )
   }
