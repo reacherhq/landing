@@ -28,7 +28,6 @@
     "antd": "^3.23.5",
     "copy-text-to-clipboard": "^2.1.0",
     "core-js": "^3.2.1",
-    "regenerator-runtime": "^0.13.11",
     "css-var": "^1.0.0-b0",
     "dangerously-set-html-content": "^1.0.3",
     "downloadjs": "^1.4.7",
@@ -47,6 +46,7 @@
     "react-router-dom": "^5.1.2",
     "react-saasify": "^1.20.1",
     "react-scripts": "2.1.8",
+    "regenerator-runtime": "^0.13.11",
     "remove-markdown": "^0.3.0",
     "styled-components": "^4.3.2",
     "swagger-ui-react": "^3.25.0",
@@ -76,6 +76,7 @@
     "react-app-rewired": "^2.2.1",
     "saasify": "^1.20.3",
     "source-map-explorer": "^2.0.1",
+    "webpack": "^4.47.0",
     "webpack-bundle-analyzer": "^3.4.1",
     "webpack-cli": "^3.3.8"
   },
